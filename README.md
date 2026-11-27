@@ -4,13 +4,15 @@ Build matching outdoor backgrounds and hillshades for MUME’s [MMapper](https:/
 
 ## Use a ready-made profile
 
-Put the playable map and its matching profile on disk. The offline map bundle places them under `maps/foreground/` and `maps/profiles/`.
+Check [Releases](https://github.com/Sunnyl75/mmapper-terrain-helper/releases) for versioned backgrounds, hillshades, and aligned elevation GeoTIFFs. The hillshade PNG and its PGW go with the matching background. Use the elevation GeoTIFF in GIS software.
 
-| Profile | Playable map | Background |
+| Profile | Foreground used for this build | Page to check for updates |
 | --- | --- | --- |
-| Bundled | `arda-MMapper-26.06.0.xml` | `bundled-background-river-reaches.mm2` |
-| Faine | `faine-map.mm2` | `faine-background-river-reaches.mm2` |
-| Nazgum | `nazgum-latest.mm2` | `nazgum-background-river-reaches.mm2` |
+| Bundled | `arda-MMapper-26.06.0.xml` | [MUME's bundled map repository](https://github.com/MUME/arda) · [MMapper releases](https://github.com/MUME/MMapper/releases) |
+| Faine | `faine-map.mm2` | [Faine's map in Nazgum's map directory](https://github.com/nazgum/mume/tree/master/maps) |
+| Nazgum | `nazgum-latest.mm2` | [Nazgum's map directory](https://github.com/nazgum/mume/tree/master/maps) |
+
+These are upstream pages that can show renamed or updated files. For an existing background, use the exact playable snapshot recorded in `foreground-sources.json`.
 
 1. Open the matching playable map in a build with **Background Map** and **Hillshade image** preferences.
 2. Enable **Show background map** and choose the profile’s background `.mm2`.
