@@ -104,7 +104,16 @@ def find_candidates(args):
     existing = set()
     for page in range(1, 11):
         found = api(f"repos/{own_repo}/releases?per_page=100&page={page}")
-        existing.update(release["tag_name"] for release in found)
+        for release in found:
+            tag = release["tag_name"]
+            if not release["draft"]:
+                existing.add(tag)
+                continue
+            label = tag.split("-")[1] if tag.startswith("terrain-") else ""
+            expected = {f"{label}-background.zip", f"{label}-elevation.tif"}
+            complete = {asset["name"] for asset in release["assets"] if asset["state"] == "uploaded"}
+            if expected <= complete:
+                existing.add(tag)
         if len(found) < 100:
             break
 
