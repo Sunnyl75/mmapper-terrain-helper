@@ -1,0 +1,219 @@
+name: Check and rebuild terrain maps
+
+on:
+  schedule:
+    - cron: '17 3 * * 1'
+  workflow_dispatch:
+    inputs:
+      map_url:
+        description: Optional public Raw GitHub URL for a .mm2, .xml, or .mm2xml foreground
+        type: string
+        required: false
+      style:
+        description: Starting profile for the supplied map
+        type: choice
+        default: auto
+        options: [auto, bundled, faine, nazgum]
+      check_only:
+        description: Look for source changes without building or drafting a release
+        type: boolean
+        default: false
+  push:
+    branches: [terrain-update-action]
+    paths:
+      - '.github/workflows/terrain-updates.yml'
+      - 'tools/terrain_updates.py'
+
+concurrency:
+  group: terrain-updates
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    outputs:
+      matrix: ${{ steps.scan.outputs.matrix }}
+      changed: ${{ steps.scan.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+      - if: github.event_name == 'push'
+        name: Smoke-test the three reference profiles
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends python3-numpy python3-scipy python3-gdal
+          /usr/bin/python3 tools/fetch_foregrounds.py
+          /usr/bin/python3 - <<'PY'
+          import json, pathlib, subprocess
+          sources=json.loads(pathlib.Path("foreground-sources.json").read_text())
+          for style, source in sources.items():
+              path=pathlib.Path("maps/foreground") / source["filename"]
+              result=subprocess.check_output(
+                  ["/usr/bin/python3","tools/terrain_updates.py","fit",
+                   "--target",str(path),"--output","unused","--choose-only"], text=True)
+              if json.loads(result)["style"] != style:
+                  raise SystemExit(f"Incorrect preset for {path.name}")
+          PY
+      - id: scan
+        name: Compare exact foreground files with published inputs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MAP_URL: ${{ inputs.map_url }}
+        run: |
+          options=()
+          if [[ -n "$MAP_URL" ]]; then options+=(--map-url "$MAP_URL"); fi
+          python3 tools/terrain_updates.py check --output build/updates.json "${options[@]}"
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          with open("build/updates.json") as f:
+              plan=json.load(f)
+          print("matrix="+json.dumps({"include":plan["include"]},separators=(",",":")))
+          print("changed="+str(bool(plan["include"])).lower())
+          PY
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          with open("build/updates.json") as f:
+              plan=json.load(f)
+          print("## Foreground map check")
+          if not plan["include"]:
+              print("No new source snapshots to build.")
+          for item in plan["include"]:
+              print(f"- {item['label']}: [{item['tag']}]({item['source']})")
+          for issue in plan["review"]:
+              print(f"- Needs review: {issue['profile']}. {issue['reason']}")
+          PY
+
+  terrain:
+    needs: check
+    if: needs.check.outputs.changed == 'true' && github.event_name != 'push' && !inputs.check_only
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    permissions:
+      contents: write
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix: ${{ fromJSON(needs.check.outputs.matrix) }}
+    env:
+      PROFILE_REQUEST: ${{ inputs.style || 'auto' }}
+      MAP_LABEL: ${{ matrix.label }}
+      MAP_EXTENSION: ${{ matrix.extension }}
+      CANDIDATE_URL: ${{ matrix.url }}
+      CANDIDATE_SHA256: ${{ matrix.sha256 }}
+      SOURCE_PAGE: ${{ matrix.source }}
+      RELEASE_TAG: ${{ matrix.tag }}
+      OPENBLAS_NUM_THREADS: '1'
+      ARDA_REVISION: 295d735320affed232a0eadffeafb0482b660971
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install map tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends python3-gdal python3-numpy python3-scipy python3-pil
+      - id: fit
+        name: Identify the layout and refine its fit
+        run: |
+          /usr/bin/python3 tools/fetch_foregrounds.py
+          /usr/bin/python3 tools/terrain_updates.py fetch --url "$CANDIDATE_URL" \
+            --sha256 "$CANDIDATE_SHA256" --output "build/candidate$MAP_EXTENSION"
+          /usr/bin/python3 tools/terrain_updates.py fit --target "build/candidate$MAP_EXTENSION" \
+            --style "$PROFILE_REQUEST" --output build/profile-fit --selection-out build/style.json
+          echo "style=$(/usr/bin/python3 -c 'import json; print(json.load(open("build/style.json"))["style"])')" >> "$GITHUB_OUTPUT"
+      - name: Cache pinned Arda inputs
+        uses: actions/cache@v4
+        with:
+          path: .cache/terrain-arda
+          key: terrain-arda-${{ env.ARDA_REVISION }}-${{ hashFiles('workflow/arda-32k-sha256.txt') }}
+      - name: Fetch and verify the native geographic sources
+        run: |
+          arda="$PWD/.cache/terrain-arda"
+          if [[ ! -d "$arda/.git" ]]; then
+            mkdir -p "$arda"
+            git -C "$arda" init -q
+            git -C "$arda" fetch -q --depth=1 https://github.com/bburns/Arda.git "$ARDA_REVISION"
+            git -C "$arda" checkout -q --detach FETCH_HEAD
+          fi
+          test "$(git -C "$arda" rev-parse HEAD)" = "$ARDA_REVISION"
+          (
+            cd "$arda/data/rasters/32k"
+            for tile in dem_nw.tif dem_ne.tif dem_sw.tif dem_se.tif; do
+              if [[ ! -s "$tile" ]]; then
+                curl -fsSL --retry 3 -o "$tile.part" \
+                  "https://github.com/bburns/Arda/releases/download/dem-32k-v1/$tile"
+                mv "$tile.part" "$tile"
+              fi
+            done
+            sha256sum -c "$GITHUB_WORKSPACE/workflow/arda-32k-sha256.txt"
+          )
+          echo '9f175b9eb84a4412885772869aae93fac2ecfd2b8b29c9cb115ef1d59bdadeae  .cache/terrain-arda/data/vectors/vectors.gpkg' |
+            sha256sum -c -
+      - name: Rebuild and verify the output maps
+        run: |
+          arda="$PWD/.cache/terrain-arda"
+          /usr/bin/python3 workflow/rebuild.py --dem "$arda/data/rasters/32k/dem.vrt" \
+            --gis "$arda/data/vectors/vectors.gpkg" \
+            --reference maps/foreground/arda-MMapper-26.06.0.xml \
+            --target "build/candidate$MAP_EXTENSION" \
+            --profile-fit build/profile-fit/regional-displacement.npz \
+            --reach-fit fit --output build/maps
+          /usr/bin/python3 workflow/review.py --target "build/candidate$MAP_EXTENSION" \
+            --profile-fit build/profile-fit/regional-displacement.npz --output build/maps
+      - name: Check the fitted grid and established river joins
+        run: |
+          /usr/bin/python3 - <<'PY'
+          import json
+          report=json.load(open("build/maps/build-report.json"))
+          if report["mm2_verification"]["verified_cells"] != 212284:
+              raise SystemExit("Incomplete terrain grid")
+          regressions=report["regression_locations"]
+          broken=[label for label, check in regressions.items() if not check["same_water_component"]]
+          if broken:
+              raise SystemExit("Water continuity requires review: " + ", ".join(broken))
+          fit=json.load(open("build/profile-fit/profile-report.json"))
+          error=fit["final_damped_field_fitted_residual"]["p95"]
+          if error > 2:
+              raise SystemExit(f"95th-percentile fit offset is {error:.2f} rooms; review before release.")
+          PY
+      - name: Draft a release for the exact new snapshot
+        env:
+          GH_TOKEN: ${{ github.token }}
+          STYLE: ${{ steps.fit.outputs.style }}
+        run: |
+          mkdir -p dist
+          zip -q -j "dist/$MAP_LABEL-background.zip" \
+            "build/maps/$STYLE-background-river-reaches.mm2" \
+            "build/maps/$STYLE.hillshade.png" "build/maps/$STYLE.hillshade.pgw" \
+            build/maps/build-report.json build/style.json ACKNOWLEDGEMENTS.md
+          cp build/maps/elevation.tif "dist/$MAP_LABEL-elevation.tif"
+          /usr/bin/python3 - <<'PY'
+          import json, os, pathlib
+          page=os.environ["SOURCE_PAGE"]
+          digest=os.environ["CANDIDATE_SHA256"]
+          style=json.load(open("build/style.json"))
+          pathlib.Path("dist/release-notes.md").write_text(
+              f"Foreground: [exact upstream snapshot]({page})\n\n"
+              f"Foreground SHA-256: {digest}\n\n"
+              f"Starting profile: {style['style']}. Alignment: {style['method']}.\n\n"
+              "This draft includes the terrain-only background MM2, matched hillshade, world file and aligned elevation. "
+              "Check the fit in MMapper before publishing. "
+              "[Source credits and data terms](https://github.com/Sunnyl75/mmapper-terrain-helper/blob/main/ACKNOWLEDGEMENTS.md).\n")
+          PY
+          gh release create "$RELEASE_TAG" "dist/$MAP_LABEL-background.zip" "dist/$MAP_LABEL-elevation.tif" \
+            --draft --target "$GITHUB_SHA" --title "MMapper terrain update ($MAP_LABEL)" --notes-file dist/release-notes.md
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: terrain-review-${{ matrix.tag }}
+          if-no-files-found: ignore
+          path: |
+            build/style.json
+            build/profile-fit/profile-report.json
+            build/profile-fit/matched-controls.csv
+            build/maps/build-report.json
+            build/maps/review.html
+            build/maps/overview.png
+            build/maps/detail-*.png
