@@ -1,0 +1,1085 @@
+{
+  "profile": "bundled",
+  "reference": "arda-MMapper-26.06.0.xml",
+  "target": "arda.xml",
+  "canonical_bounds": [
+    -6,
+    -271,
+    721,
+    21
+  ],
+  "target_bounds": [
+    -6,
+    -271,
+    721,
+    21
+  ],
+  "profile_review": "Regions outside shared evidence or with high residuals require visual review.",
+  "source_files": {
+    "arda-MMapper-26.06.0.xml": "df9bcd380c17cd0494a7974ee035af108f155c8efcdcaead6813d2e38f76a234",
+    "arda.xml": "df9bcd380c17cd0494a7974ee035af108f155c8efcdcaead6813d2e38f76a234",
+    "Arda-32k-MUME-River-Refined.tif": "7e65e2a4c336fe6ac0a2868f969bb04872071ebf448451a37cb2225b33f384a7",
+    "MMapper-Full-Outdoor-Background.zip": "3768578ec881822250bfd95d4906b5ce86626fdf33c34375e1126c865448432a"
+  },
+  "matched_control_count": 20779,
+  "eligible_geographic_controls": 20779,
+  "match_sources": {
+    "server-id": 20778,
+    "unique-name-description": 1
+  },
+  "rejected_isolated_pairs": 0,
+  "detached_geometry_pairs": 0,
+  "regional_shift_limit_rooms": 10,
+  "selected_model": "translation",
+  "target_to_reference_global_pull_xy": [
+    0,
+    0
+  ],
+  "spatially_held_out_scores": {
+    "translation": {
+      "count": 20779,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0,
+      "mean_of_block_means": 0.0
+    },
+    "local-4": {
+      "count": 20779,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0,
+      "mean_of_block_means": 0.0
+    },
+    "local-8": {
+      "count": 20779,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0,
+      "mean_of_block_means": 0.0
+    },
+    "local-15": {
+      "count": 20779,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0,
+      "mean_of_block_means": 0.0
+    }
+  },
+  "final_damped_field_fitted_residual": {
+    "count": 20779,
+    "mean": 0.0,
+    "median": 0.0,
+    "p90": 0.0,
+    "p95": 0.0,
+    "over_two_rooms": 0
+  },
+  "deformation": {
+    "minimum_inverse_jacobian": 1.0,
+    "minimum_local_regional_scale": 1.0,
+    "field_grid_samples_damped": 0
+  },
+  "regions_32_rooms": [
+    {
+      "xy": [
+        -32,
+        -96
+      ],
+      "count": 1,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        0,
+        -128
+      ],
+      "count": 3,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        0,
+        -96
+      ],
+      "count": 25,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        0,
+        -64
+      ],
+      "count": 58,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        32,
+        -96
+      ],
+      "count": 342,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        32,
+        -64
+      ],
+      "count": 470,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        64,
+        -96
+      ],
+      "count": 671,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        64,
+        -64
+      ],
+      "count": 256,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        96,
+        -96
+      ],
+      "count": 240,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        96,
+        -64
+      ],
+      "count": 51,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        128,
+        -224
+      ],
+      "count": 1,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        128,
+        -96
+      ],
+      "count": 292,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        128,
+        -64
+      ],
+      "count": 10,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        160,
+        -128
+      ],
+      "count": 126,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        160,
+        -96
+      ],
+      "count": 584,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        160,
+        -64
+      ],
+      "count": 18,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        192,
+        -192
+      ],
+      "count": 6,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        192,
+        -160
+      ],
+      "count": 364,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        192,
+        -128
+      ],
+      "count": 494,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        192,
+        -96
+      ],
+      "count": 670,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        192,
+        -64
+      ],
+      "count": 400,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        192,
+        -32
+      ],
+      "count": 154,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        224,
+        -192
+      ],
+      "count": 389,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        224,
+        -160
+      ],
+      "count": 122,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        224,
+        -128
+      ],
+      "count": 18,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        224,
+        -96
+      ],
+      "count": 504,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        224,
+        -64
+      ],
+      "count": 91,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        224,
+        -32
+      ],
+      "count": 2,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        256,
+        -192
+      ],
+      "count": 555,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        256,
+        -160
+      ],
+      "count": 1,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        256,
+        -96
+      ],
+      "count": 293,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        288,
+        -256
+      ],
+      "count": 175,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        288,
+        -224
+      ],
+      "count": 350,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        288,
+        -192
+      ],
+      "count": 370,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        288,
+        -96
+      ],
+      "count": 235,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        320,
+        -256
+      ],
+      "count": 515,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        320,
+        -224
+      ],
+      "count": 202,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        320,
+        -192
+      ],
+      "count": 569,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        320,
+        -160
+      ],
+      "count": 109,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        320,
+        -128
+      ],
+      "count": 23,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        320,
+        -96
+      ],
+      "count": 404,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        320,
+        -64
+      ],
+      "count": 35,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        352,
+        -256
+      ],
+      "count": 164,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        352,
+        -224
+      ],
+      "count": 448,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        352,
+        -192
+      ],
+      "count": 116,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        352,
+        -160
+      ],
+      "count": 474,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        352,
+        -128
+      ],
+      "count": 592,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        352,
+        -96
+      ],
+      "count": 827,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        352,
+        -64
+      ],
+      "count": 136,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        352,
+        -32
+      ],
+      "count": 42,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        384,
+        -224
+      ],
+      "count": 139,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        384,
+        -192
+      ],
+      "count": 502,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        384,
+        -160
+      ],
+      "count": 231,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        384,
+        -128
+      ],
+      "count": 1,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        384,
+        -96
+      ],
+      "count": 434,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        384,
+        -64
+      ],
+      "count": 243,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        384,
+        -32
+      ],
+      "count": 19,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        384,
+        0
+      ],
+      "count": 1,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        416,
+        -192
+      ],
+      "count": 387,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        416,
+        -160
+      ],
+      "count": 501,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        416,
+        -96
+      ],
+      "count": 33,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        416,
+        -64
+      ],
+      "count": 460,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        448,
+        -192
+      ],
+      "count": 158,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        448,
+        -160
+      ],
+      "count": 535,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        448,
+        -128
+      ],
+      "count": 501,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        448,
+        -96
+      ],
+      "count": 292,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        448,
+        -64
+      ],
+      "count": 372,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        480,
+        -192
+      ],
+      "count": 1,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        480,
+        -160
+      ],
+      "count": 387,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        480,
+        -128
+      ],
+      "count": 103,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        480,
+        -96
+      ],
+      "count": 501,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        480,
+        -64
+      ],
+      "count": 658,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        480,
+        -32
+      ],
+      "count": 201,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        512,
+        -160
+      ],
+      "count": 92,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        512,
+        -96
+      ],
+      "count": 333,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        512,
+        -64
+      ],
+      "count": 6,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        512,
+        -32
+      ],
+      "count": 2,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        544,
+        -96
+      ],
+      "count": 321,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        544,
+        -64
+      ],
+      "count": 20,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        576,
+        -96
+      ],
+      "count": 244,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        576,
+        -64
+      ],
+      "count": 98,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    },
+    {
+      "xy": [
+        608,
+        -96
+      ],
+      "count": 6,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "over_two_rooms": 0
+    }
+  ],
+  "outside_canonical_coverage": [],
+  "adjustments_to_inferred_connectivity": {},
+  "outdoor_target_sectors_preserved": 20807,
+  "target_road_cells_preserved": 1342,
+  "output_sha256": {
+    "bundled-background.mm2xml": "28eb14b7aa19149d3b18ab1fdb2578eedccb4f0641eb48531513893016a8c5c7",
+    "bundled-elevation.tif": "f1bf70c98307ab9219633f270f1df117cef48263b35308927773af6623b10e2f",
+    "bundled.hillshade.png": "5ddd955c9b7e46aa004050e0c4c3555a22ca613a61208f77e51e04e85878ea14",
+    "bundled.hillshade.pgw": "61967eb3d993948b9262e0486030c55fe1ec8914864c2605ab1ddb32ab916177"
+  }
+}

@@ -1,0 +1,6525 @@
+{
+  "source_features_scanned": 414,
+  "associations": {
+    "ambiguous_nearby_channels": 170,
+    "named_but_far_from_matching_path": 99,
+    "ambiguous_name": 4,
+    "nearby connected water rooms": 257,
+    "isolated_geometry_only": 47,
+    "room name": 599,
+    "water_rooms_considered": 1275
+  },
+  "selected_reaches": [
+    {
+      "source_id": 2193,
+      "name": "Unnamed GIS channel",
+      "mapped_stations": 10,
+      "start": [
+        230.56665227194455,
+        -153.82728813544475
+      ],
+      "end": [
+        237.47776843665844,
+        -167.48984349739973
+      ],
+      "method": "smooth",
+      "block_count": 5,
+      "heldout_stations": 7,
+      "heldout_mean_before": 1.554285714285721,
+      "heldout_mean_after": 0.3126304237056378,
+      "heldout_p90_before": 2.640000000000008,
+      "heldout_p90_after": 0.5691884028767666
+    },
+    {
+      "source_id": 2288,
+      "name": "Isen",
+      "mapped_stations": 20,
+      "start": [
+        340.39764670825895,
+        -226.22249823011518
+      ],
+      "end": [
+        332.0593899638496,
+        -251.38966504012427
+      ],
+      "method": "smooth",
+      "block_count": 10,
+      "heldout_stations": 17,
+      "heldout_mean_before": 0.4752941176470608,
+      "heldout_mean_after": 0.38490321952710405,
+      "heldout_p90_before": 1.056000000000002,
+      "heldout_p90_after": 0.9032021160432305
+    },
+    {
+      "source_id": 90,
+      "name": "Glanduin",
+      "mapped_stations": 8,
+      "start": [
+        330.6966454732611,
+        -185.4910224986416
+      ],
+      "end": [
+        320.8429327210892,
+        -182.31079967761863
+      ],
+      "method": "smooth",
+      "block_count": 5,
+      "heldout_stations": 5,
+      "heldout_mean_before": 2.4320000000000075,
+      "heldout_mean_after": 0.4125176458947504,
+      "heldout_p90_before": 3.024000000000008,
+      "heldout_p90_after": 0.6105789781201832
+    },
+    {
+      "source_id": 90,
+      "name": "Glanduin",
+      "mapped_stations": 32,
+      "start": [
+        301.635826847688,
+        -178.52539284271973
+      ],
+      "end": [
+        262.80552044788743,
+        -170.7976240406436
+      ],
+      "method": "smooth",
+      "block_count": 15,
+      "heldout_stations": 27,
+      "heldout_mean_before": 0.6162962962962935,
+      "heldout_mean_after": 0.370650726472482,
+      "heldout_p90_before": 1.1359999999999961,
+      "heldout_p90_after": 0.6376338192417932
+    },
+    {
+      "source_id": 2265,
+      "name": "Sirannon",
+      "mapped_stations": 26,
+      "start": [
+        340.64373879071775,
+        -166.4612453875985
+      ],
+      "end": [
+        306.6711095119893,
+        -177.40712233865747
+      ],
+      "method": "smooth",
+      "block_count": 13,
+      "heldout_stations": 22,
+      "heldout_mean_before": 0.6945454545454512,
+      "heldout_mean_after": 0.43739476152983703,
+      "heldout_p90_before": 1.3439999999999963,
+      "heldout_p90_after": 0.7335497913660978
+    },
+    {
+      "source_id": 85,
+      "name": "Unnamed GIS channel",
+      "mapped_stations": 11,
+      "start": [
+        372.34377160971854,
+        -114.50738740647367
+      ],
+      "end": [
+        356.8644734298053,
+        -112.50510922930847
+      ],
+      "method": "cubic",
+      "block_count": 5,
+      "heldout_stations": 5,
+      "heldout_mean_before": 1.615999999999996,
+      "heldout_mean_after": 0.8232765794419853,
+      "heldout_p90_before": 1.9199999999999964,
+      "heldout_p90_after": 1.6057940810980855
+    },
+    {
+      "source_id": 2468,
+      "name": "Bruinen",
+      "mapped_stations": 32,
+      "start": [
+        397.82937213522416,
+        -61.484042037945464
+      ],
+      "end": [
+        362.4367448984604,
+        -86.51011435149105
+      ],
+      "method": "smooth",
+      "block_count": 16,
+      "heldout_stations": 29,
+      "heldout_mean_before": 1.1613793103448298,
+      "heldout_mean_after": 0.7319989473025441,
+      "heldout_p90_before": 2.751999999999997,
+      "heldout_p90_after": 1.2346320529830015
+    },
+    {
+      "source_id": 2214,
+      "name": "Unnamed GIS channel",
+      "mapped_stations": 10,
+      "start": [
+        473.27341068943906,
+        -57.59760225328682
+      ],
+      "end": [
+        484.82883887772346,
+        -63.33624794664754
+      ],
+      "method": "smooth",
+      "block_count": 5,
+      "heldout_stations": 6,
+      "heldout_mean_before": 0.7733333333333322,
+      "heldout_mean_after": 0.4523654154144587,
+      "heldout_p90_before": 1.200000000000001,
+      "heldout_p90_after": 0.8931137443153769
+    },
+    {
+      "source_id": 2397,
+      "name": "Anduin",
+      "mapped_stations": 101,
+      "start": [
+        491.5,
+        -45.5
+      ],
+      "end": [
+        453.4751794478196,
+        -171.4529883682134
+      ],
+      "method": "smooth",
+      "block_count": 47,
+      "heldout_stations": 96,
+      "heldout_mean_before": 0.9758333333333323,
+      "heldout_mean_after": 0.5175318510807689,
+      "heldout_p90_before": 2.2399999999999967,
+      "heldout_p90_after": 0.9540343072858302
+    },
+    {
+      "source_id": 2058,
+      "name": "Celebrant",
+      "mapped_stations": 28,
+      "start": [
+        405.4427627954328,
+        -163.66231120308987
+      ],
+      "end": [
+        443.4041542541754,
+        -158.44934649592702
+      ],
+      "method": "cubic",
+      "block_count": 14,
+      "heldout_stations": 24,
+      "heldout_mean_before": 0.8366666666666648,
+      "heldout_mean_after": 0.44275321231285103,
+      "heldout_p90_before": 1.6079999999999959,
+      "heldout_p90_after": 0.8156715772559618
+    }
+  ],
+  "unchanged_or_unresolved_reaches": [
+    {
+      "source_id": 1296,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1290,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1265,
+      "name": "Rongasir",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1284,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1282,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1269,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1271,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1287,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1259,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1250,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1243,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1239,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1236,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1232,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2012,
+      "name": "Galerant",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2493,
+      "name": "Dior",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1110,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 1
+    },
+    {
+      "source_id": 1096,
+      "name": "Celos",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1107,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1098,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1091,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 3
+    },
+    {
+      "source_id": 1077,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1075,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1072,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1066,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1062,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1069,
+      "name": "L\u00f3rnen",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1058,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1047,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1044,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1023,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1019,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1015,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1014,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1013,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1012,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 998,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 32,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2017,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2023,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2024,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2437,
+      "name": "Seldaro",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1191,
+      "name": "Nogothir",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 38,
+      "name": "Beles\u00eer",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1160,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1225,
+      "name": "Luith\u00f4n",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1303,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1264,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1254,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1164,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1275,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1203,
+      "name": "Ilinl\u00f3",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1175,
+      "name": "Nenglos",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1340,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1307,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1342,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1161,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1270,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1314,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1263,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1300,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1326,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1350,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 41,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1279,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1277,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1283,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1238,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1245,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1299,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1298,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1354,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1359,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1365,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2296,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2440,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2268,
+      "name": "Lune",
+      "reason": "insufficient contiguous support",
+      "stations": 4
+    },
+    {
+      "source_id": 2277,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 33,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 980,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1028,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1017,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1081,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1035,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1037,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 31,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1030,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2000,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2280,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1006,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 34,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1073,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1092,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1088,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1051,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1229,
+      "name": "Nimeithel",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 35,
+      "name": "The Water",
+      "reason": "not enough held-out stations",
+      "stations": 6
+    },
+    {
+      "source_id": 1210,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2002,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1291,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2241,
+      "name": "Thistle Brook",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1131,
+      "name": "The Stockbrook",
+      "reason": "insufficient contiguous support",
+      "stations": 5
+    },
+    {
+      "source_id": 1105,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1140,
+      "name": "River Withywindle",
+      "reason": "insufficient contiguous support",
+      "stations": 4
+    },
+    {
+      "source_id": 1945,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1086,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 1
+    },
+    {
+      "source_id": 1986,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1135,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2192,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1064,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2191,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1118,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1111,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1103,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1106,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1113,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 1
+    },
+    {
+      "source_id": 1113,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 2
+    },
+    {
+      "source_id": 2282,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2443,
+      "name": "Baranduin",
+      "reason": "insufficient contiguous support",
+      "stations": 1
+    },
+    {
+      "source_id": 2443,
+      "name": "Baranduin",
+      "reason": "insufficient contiguous support",
+      "stations": 3
+    },
+    {
+      "source_id": 2443,
+      "name": "Baranduin",
+      "reason": "held-out fit did not improve reliably",
+      "stations": 17
+    },
+    {
+      "source_id": 2447,
+      "name": "River Shirebourn",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2483,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2484,
+      "name": "The Water",
+      "reason": "insufficient contiguous support",
+      "stations": 1
+    },
+    {
+      "source_id": 2484,
+      "name": "The Water",
+      "reason": "held-out fit did not improve reliably",
+      "stations": 13
+    },
+    {
+      "source_id": 1214,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1349,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1337,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1223,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1315,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1173,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1301,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1306,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1327,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1351,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1234,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 8
+    },
+    {
+      "source_id": 1234,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 5
+    },
+    {
+      "source_id": 1343,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1297,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1230,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 3
+    },
+    {
+      "source_id": 1312,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1304,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1362,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1371,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1372,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1382,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1393,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1399,
+      "name": "Enedh\u00eer",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1946,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1947,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2180,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2181,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2183,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2193,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 3
+    },
+    {
+      "source_id": 2233,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1163,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1201,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2262,
+      "name": "Gwathl\u00f3",
+      "reason": "held-out fit did not improve reliably",
+      "stations": 8
+    },
+    {
+      "source_id": 2441,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1010,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1993,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1991,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1992,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 985,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1009,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 987,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2184,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2281,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1353,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1295,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1347,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1317,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1345,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1348,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1978,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1322,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1341,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2182,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1434,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1413,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1412,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1407,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1405,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1400,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1398,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1394,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1396,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1438,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1386,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1381,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1378,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2170,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2171,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 1
+    },
+    {
+      "source_id": 2469,
+      "name": "Adorn",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1401,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1392,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1216,
+      "name": "Weneithel",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1212,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1211,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2011,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1204,
+      "name": "Airasir",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1199,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1196,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1226,
+      "name": "Brithir",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1195,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1187,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1185,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1184,
+      "name": "Endhuin",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1172,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1162,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 37,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1150,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1138,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1133,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1128,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1126,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1123,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1121,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 3
+    },
+    {
+      "source_id": 1119,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1117,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2018,
+      "name": "Nornhir",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2019,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2020,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2027,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2438,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2439,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2494,
+      "name": "Mirilgasir",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2102,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2106,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2107,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2104,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2108,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2100,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2099,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2120,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2115,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2114,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2116,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2101,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2118,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2112,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2117,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2098,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2119,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2257,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1361,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 94,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1336,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1331,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1323,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1319,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 93,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1302,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2157,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 90,
+      "name": "Glanduin",
+      "reason": "insufficient contiguous support",
+      "stations": 3
+    },
+    {
+      "source_id": 1281,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 91,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 2
+    },
+    {
+      "source_id": 1272,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 4
+    },
+    {
+      "source_id": 2155,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1267,
+      "name": "Nimrodel",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1979,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2153,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 88,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 4
+    },
+    {
+      "source_id": 1252,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2158,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2160,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2165,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2166,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 7
+    },
+    {
+      "source_id": 2167,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 3
+    },
+    {
+      "source_id": 2168,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2169,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2172,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2173,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2174,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2176,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2177,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2179,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2178,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2470,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2471,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 5
+    },
+    {
+      "source_id": 2472,
+      "name": "Cilstrem",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2490,
+      "name": "Dunstrem",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2152,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 86,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1235,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2151,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1228,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1227,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2148,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2149,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2147,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2142,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2150,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2141,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2144,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2145,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2137,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2140,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2138,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2135,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 1
+    },
+    {
+      "source_id": 1165,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1158,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2136,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 1
+    },
+    {
+      "source_id": 36,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1153,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2161,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2162,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2163,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2386,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2473,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 3
+    },
+    {
+      "source_id": 2475,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2255,
+      "name": "Mitheithel",
+      "reason": "insufficient contiguous support",
+      "stations": 6
+    },
+    {
+      "source_id": 2255,
+      "name": "Mitheithel",
+      "reason": "insufficient contiguous support",
+      "stations": 5
+    },
+    {
+      "source_id": 1193,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 2
+    },
+    {
+      "source_id": 2256,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2259,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2237,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2124,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2238,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2123,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2261,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2122,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2258,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2125,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2254,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2139,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 2
+    },
+    {
+      "source_id": 2126,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 9
+    },
+    {
+      "source_id": 2132,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 2
+    },
+    {
+      "source_id": 2132,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 2
+    },
+    {
+      "source_id": 2132,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 2
+    },
+    {
+      "source_id": 2134,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2131,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2130,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2263,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2395,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2474,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2491,
+      "name": "Sir Morva",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2063,
+      "name": "Gladden River",
+      "reason": "insufficient contiguous support",
+      "stations": 3
+    },
+    {
+      "source_id": 1127,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2129,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2128,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2127,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2064,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 3
+    },
+    {
+      "source_id": 84,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2065,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1950,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2069,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2067,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 95,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2066,
+      "name": "Rushdown",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2393,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2396,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1344,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1379,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2175,
+      "name": "Limlight",
+      "reason": "insufficient contiguous support",
+      "stations": 2
+    },
+    {
+      "source_id": 2175,
+      "name": "Limlight",
+      "reason": "insufficient contiguous support",
+      "stations": 1
+    },
+    {
+      "source_id": 2058,
+      "name": "Celebrant",
+      "reason": "insufficient contiguous support",
+      "stations": 4
+    },
+    {
+      "source_id": 2061,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1955,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2059,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 2
+    },
+    {
+      "source_id": 2060,
+      "name": "",
+      "reason": "insufficient contiguous support",
+      "stations": 6
+    },
+    {
+      "source_id": 1954,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2062,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1293,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1190,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1266,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1357,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2246,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 77,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 44,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1288,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 39,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 75,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1240,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1961,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1321,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 76,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1311,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2405,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2413,
+      "name": "Entwash",
+      "reason": "insufficient contiguous support",
+      "stations": 1
+    },
+    {
+      "source_id": 2240,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1080,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1071,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 907,
+      "name": "Forest River",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1957,
+      "name": "Celduin",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2477,
+      "name": "Enchanted River",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2485,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1004,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1001,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 995,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 990,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1120,
+      "name": "Carnen",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2266,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2287,
+      "name": "Celduin",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1186,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1390,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1428,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1446,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 45,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1215,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1180,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 1956,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2406,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2113,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 105,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2111,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2109,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2070,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 991,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 96,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2071,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2075,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 103,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2076,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2211,
+      "name": "Greylin",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2212,
+      "name": "",
+      "reason": "no reliable surface channel stations"
+    },
+    {
+      "source_id": 2399,
+      "name": "Langwell",
+      "reason": "no reliable surface channel stations"
+    }
+  ],
+  "selected_stations": [
+    {
+      "source_id": 2193,
+      "xy": [
+        230.56665227194455,
+        -153.82728813544475
+      ],
+      "normal": [
+        0.9798868146593243,
+        0.1995540790282251
+      ],
+      "trial_trough": -1.9999999999999964,
+      "trial_gis": -2.143491220802283,
+      "station": 53.72759916835684,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2193,
+      "xy": [
+        230.59168522680326,
+        -155.85206774882528
+      ],
+      "normal": [
+        0.9677236196740076,
+        0.2520138804213706
+      ],
+      "trial_trough": -1.519999999999996,
+      "trial_gis": -1.7706504422662372,
+      "station": 56.02365041486782,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2193,
+      "xy": [
+        231.4895459543383,
+        -158.98966609143002
+      ],
+      "normal": [
+        0.7030085521811803,
+        0.7111813942730227
+      ],
+      "trial_trough": 5.329070518200751e-15,
+      "trial_gis": -0.6314817429778292,
+      "station": 60.38614778323867,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2193,
+      "xy": [
+        232.38172970681856,
+        -160.4236672896824
+      ],
+      "normal": [
+        0.5422738123738109,
+        0.8402018283802845
+      ],
+      "trial_trough": 0.6400000000000059,
+      "trial_gis": -0.29567262762671265,
+      "station": 62.22298878044745,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2193,
+      "xy": [
+        233.5113230025069,
+        -161.5051764676118
+      ],
+      "normal": [
+        0.4157755650632013,
+        0.9094672503704438
+      ],
+      "trial_trough": 1.0400000000000063,
+      "trial_gis": 0.18241160011960997,
+      "station": 63.83022465300514,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2193,
+      "xy": [
+        233.59066097038644,
+        -162.55601946151268
+      ],
+      "normal": [
+        0.5256489550581728,
+        0.8507015787256135
+      ],
+      "trial_trough": 1.6800000000000068,
+      "trial_gis": 1.1305439881385104,
+      "station": 64.51904002695844,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2193,
+      "xy": [
+        234.80199899498635,
+        -163.94410320882577
+      ],
+      "normal": [
+        0.8269188716383016,
+        0.5623212424659397
+      ],
+      "trial_trough": 1.920000000000007,
+      "trial_gis": 0.9367114012609923,
+      "station": 67.04469639812051,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2193,
+      "xy": [
+        235.43596813213796,
+        -164.4292324224556
+      ],
+      "normal": [
+        0.7415146162061764,
+        0.6709367138207648
+      ],
+      "trial_trough": 2.000000000000007,
+      "trial_gis": 0.8003209731530467,
+      "station": 67.7335117720738,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2193,
+      "xy": [
+        236.35597963015903,
+        -166.9201496346039
+      ],
+      "normal": [
+        0.48489588409702333,
+        0.8745718847446252
+      ],
+      "trial_trough": 3.6000000000000085,
+      "trial_gis": 2.1550239764549635,
+      "station": 69.57035276928258,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2193,
+      "xy": [
+        237.47776843665844,
+        -167.48984349739973
+      ],
+      "normal": [
+        0.41553985338174715,
+        0.9095749723093067
+      ],
+      "trial_trough": 3.120000000000008,
+      "trial_gis": 2.1919457753571816,
+      "station": 70.71837839253807,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2288,
+      "xy": [
+        340.39764670825895,
+        -226.22249823011518
+      ],
+      "normal": [
+        0.9084840876021132,
+        -0.4179194450773453
+      ],
+      "trial_trough": 0.0800000000000054,
+      "trial_gis": -0.01741965403994923,
+      "station": 0.22987874531798805,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2288,
+      "xy": [
+        340.55278702579943,
+        -228.35516990144308
+      ],
+      "normal": [
+        0.9395399493693437,
+        -0.34243931365871383
+      ],
+      "trial_trough": -1.1999999999999957,
+      "trial_gis": -0.9819380946384533,
+      "station": 2.2987874531798806,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2288,
+      "xy": [
+        340.02534406722873,
+        -230.04786698164867
+      ],
+      "normal": [
+        0.8837671185513031,
+        0.4679270030330875
+      ],
+      "trial_trough": 5.329070518200751e-15,
+      "trial_gis": -0.4913861048618722,
+      "station": 5.287211142313725,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2288,
+      "xy": [
+        340.03515549024274,
+        -231.16159033891225
+      ],
+      "normal": [
+        0.977142264134437,
+        0.21258644275265123
+      ],
+      "trial_trough": 0.0800000000000054,
+      "trial_gis": -0.03137246599485719,
+      "station": 6.206726123585677,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2288,
+      "xy": [
+        339.5134295310308,
+        -232.35029763076537
+      ],
+      "normal": [
+        0.996000343346409,
+        -0.08934940432837589
+      ],
+      "trial_trough": 0.5600000000000058,
+      "trial_gis": 0.5156789503660821,
+      "station": 7.3561198501756175,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2288,
+      "xy": [
+        339.4844488602108,
+        -234.01963742990057
+      ],
+      "normal": [
+        0.7839517618218698,
+        -0.6208217418360816
+      ],
+      "trial_trough": 0.9600000000000062,
+      "trial_gis": -0.11547435261944408,
+      "station": 9.195149812719523,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2288,
+      "xy": [
+        338.4992381875199,
+        -236.02942239377836
+      ],
+      "normal": [
+        0.999664963699982,
+        -0.02588359230697324
+      ],
+      "trial_trough": 0.4000000000000057,
+      "trial_gis": -0.003966913317457814,
+      "station": 11.72381601121739,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2288,
+      "xy": [
+        337.51139189168674,
+        -237.44948158619795
+      ],
+      "normal": [
+        0.9755052334316743,
+        -0.21997622495945923
+      ],
+      "trial_trough": 0.8800000000000061,
+      "trial_gis": 0.687572532338836,
+      "station": 13.332967228443307,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2288,
+      "xy": [
+        337.51865567318936,
+        -238.41992271023037
+      ],
+      "normal": [
+        0.9739192754096301,
+        -0.2268947883614367
+      ],
+      "trial_trough": 0.5600000000000058,
+      "trial_gis": 0.5874958607802448,
+      "station": 14.482360955033247,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2288,
+      "xy": [
+        337.5104313438471,
+        -239.48630192299254
+      ],
+      "normal": [
+        0.7955797020676086,
+        -0.6058489396359582
+      ],
+      "trial_trough": 0.0800000000000054,
+      "trial_gis": 0.1259469834541938,
+      "station": 15.861633426941175,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2288,
+      "xy": [
+        337.46727253193757,
+        -241.06741427398092
+      ],
+      "normal": [
+        0.8995952371306718,
+        -0.4367246378804501
+      ],
+      "trial_trough": -0.6399999999999952,
+      "trial_gis": -0.8006585338578771,
+      "station": 17.70066338948508,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2288,
+      "xy": [
+        337.74736067547366,
+        -242.08792742883506
+      ],
+      "normal": [
+        0.857385386025203,
+        -0.5146749457962897
+      ],
+      "trial_trough": -1.1999999999999957,
+      "trial_gis": -1.3335932081017707,
+      "station": 17.93054213480307,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2288,
+      "xy": [
+        336.49631164844,
+        -243.07742955748435
+      ],
+      "normal": [
+        0.9988673838552241,
+        -0.04758097802925366
+      ],
+      "trial_trough": 5.329070518200751e-15,
+      "trial_gis": -0.7182713145709272,
+      "station": 19.99945084266496,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2288,
+      "xy": [
+        336.4957148404546,
+        -244.5592958701321
+      ],
+      "normal": [
+        0.997398893950915,
+        -0.07207944468079241
+      ],
+      "trial_trough": -0.1599999999999948,
+      "trial_gis": -0.5556409051469062,
+      "station": 21.608602059890877,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2288,
+      "xy": [
+        336.4732640908731,
+        -245.73326423291834
+      ],
+      "normal": [
+        0.9934955557760696,
+        -0.11387089467110767
+      ],
+      "trial_trough": -0.4799999999999951,
+      "trial_gis": -0.8614263281442001,
+      "station": 22.987874531798806,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2288,
+      "xy": [
+        335.9308835526382,
+        -246.7198295260237
+      ],
+      "normal": [
+        0.9539599888498834,
+        -0.299933892172142
+      ],
+      "trial_trough": -0.23999999999999488,
+      "trial_gis": -0.3125005519507451,
+      "station": 23.907389513070758,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2288,
+      "xy": [
+        334.98733175043384,
+        -248.94760151260778
+      ],
+      "normal": [
+        0.9719960879266232,
+        0.2349970320138964
+      ],
+      "trial_trough": 0.24000000000000554,
+      "trial_gis": -0.28494681976952474,
+      "station": 26.8958132022046,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2288,
+      "xy": [
+        335.5051543233235,
+        -249.51767105358698
+      ],
+      "normal": [
+        0.9599961151630207,
+        0.28001331909733895
+      ],
+      "trial_trough": -0.399999999999995,
+      "trial_gis": -0.5442081851904925,
+      "station": 27.815328183476552,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2288,
+      "xy": [
+        333.49631987267844,
+        -250.5189555245495
+      ],
+      "normal": [
+        0.9816703566269466,
+        -0.19058675431394365
+      ],
+      "trial_trough": 1.2000000000000064,
+      "trial_gis": 1.6180280053036835,
+      "station": 28.964721910066494,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2288,
+      "xy": [
+        332.0593899638496,
+        -251.38966504012427
+      ],
+      "normal": [
+        0.8805416097258137,
+        -0.4739688529233463
+      ],
+      "trial_trough": 2.000000000000007,
+      "trial_gis": 2.4029862705868537,
+      "station": 31.033630617928388,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        330.6966454732611,
+        -185.4910224986416
+      ],
+      "normal": [
+        0.04560573033047896,
+        -0.998959517378469
+      ],
+      "trial_trough": 1.2800000000000065,
+      "trial_gis": 2.008417956971993,
+      "station": 15.618945633291816,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        328.5734295744822,
+        -185.4837231535788
+      ],
+      "normal": [
+        0.21641302202844762,
+        -0.9763019020244275
+      ],
+      "trial_trough": 1.6000000000000068,
+      "trial_gis": 2.2601256097335662,
+      "station": 17.456468648973203,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        326.2362848042558,
+        -185.5228390275848
+      ],
+      "normal": [
+        0.08628192746178598,
+        -0.9962707608845495
+      ],
+      "trial_trough": 2.080000000000007,
+      "trial_gis": 2.8454686792125337,
+      "station": 20.21275317249529,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        325.0287198832767,
+        -185.4986246446199
+      ],
+      "normal": [
+        -0.0029183270725497935,
+        -0.9999957416744821
+      ],
+      "trial_trough": 2.2400000000000073,
+      "trial_gis": 2.9161835765921023,
+      "station": 21.820585811216507,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        324.6736797649239,
+        -185.62375058085976
+      ],
+      "normal": [
+        -0.5802864473727032,
+        -0.8144124501722495
+      ],
+      "trial_trough": 1.840000000000007,
+      "trial_gis": 2.6477977031697977,
+      "station": 23.88779920385807,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        324.60235650157915,
+        -184.06361689522024
+      ],
+      "normal": [
+        -0.5278735558500777,
+        -0.8493229709799416
+      ],
+      "trial_trough": 3.120000000000008,
+      "trial_gis": 3.867445820465293,
+      "station": 24.57687033473859,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        322.52554327902686,
+        -183.014303439836
+      ],
+      "normal": [
+        -0.4885826589874582,
+        -0.8725176131957137
+      ],
+      "trial_trough": 2.880000000000008,
+      "trial_gis": 3.7020172409139676,
+      "station": 26.873774104340328,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        320.8429327210892,
+        -182.31079967761863
+      ],
+      "normal": [
+        -0.7694192515094893,
+        -0.6387440922674568
+      ],
+      "trial_trough": 2.7200000000000077,
+      "trial_gis": 3.3094198162802377,
+      "station": 30.08943938178276,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        301.635826847688,
+        -178.52539284271973
+      ],
+      "normal": [
+        -0.18376633139412998,
+        -0.9829699565327228
+      ],
+      "trial_trough": -1.1999999999999957,
+      "trial_gis": -0.5898938367298755,
+      "station": 49.8428118003577,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        300.4069530740752,
+        -178.56045923667006
+      ],
+      "normal": [
+        0.5448536229649633,
+        -0.8385311738641288
+      ],
+      "trial_trough": -0.7199999999999953,
+      "trial_gis": -0.33163043905415557,
+      "station": 51.68033481603909,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        299.5519467926437,
+        -178.46968130238832
+      ],
+      "normal": [
+        0.5040744736734164,
+        -0.8636601906947363
+      ],
+      "trial_trough": -0.23999999999999488,
+      "trial_gis": 0.3610437565683761,
+      "station": 52.36940594691961,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        298.3149117073241,
+        -178.49257898623844
+      ],
+      "normal": [
+        -0.040062264095675794,
+        -0.9991971852419963
+      ],
+      "trial_trough": -0.1599999999999948,
+      "trial_gis": 0.6417997199369905,
+      "station": 54.436619339561176,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        296.52756243311285,
+        -178.5327912266571
+      ],
+      "normal": [
+        -0.7655001456947275,
+        -0.6434357209087408
+      ],
+      "trial_trough": -0.6399999999999952,
+      "trial_gis": 0.21900744017289497,
+      "station": 56.50383273220274,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        296.44111907363316,
+        -176.9036284887426
+      ],
+      "normal": [
+        -0.8533321605052577,
+        -0.5213676474882469
+      ],
+      "trial_trough": 0.48000000000000576,
+      "trial_gis": 0.9782818517244631,
+      "station": 58.34135574788413,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        294.5622928346259,
+        -176.5471794646547
+      ],
+      "normal": [
+        -0.6037594911369161,
+        -0.7971665301943454
+      ],
+      "trial_trough": -0.7999999999999954,
+      "trial_gis": -0.17855463287817916,
+      "station": 59.489807632685,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        293.5455612246367,
+        -175.50817273960354
+      ],
+      "normal": [
+        -0.1765611707188541,
+        -0.9842896692510735
+      ],
+      "trial_trough": -0.1599999999999948,
+      "trial_gis": 0.5534045093477218,
+      "station": 60.86794989444604,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        292.6167142187528,
+        -175.58505411553338
+      ],
+      "normal": [
+        -0.5889460861859308,
+        -0.8081723254147436
+      ],
+      "trial_trough": -0.5599999999999952,
+      "trial_gis": 0.28364948474994234,
+      "station": 62.246092156207084,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        290.9688921973537,
+        -175.50812306468114
+      ],
+      "normal": [
+        0.25265444656836517,
+        -0.9675565774822851
+      ],
+      "trial_trough": -1.0399999999999956,
+      "trial_gis": -0.28252880998551844,
+      "station": 64.31330554884865,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        290.0826346591577,
+        -176.3708156489577
+      ],
+      "normal": [
+        0.8423996500446187,
+        -0.5388532542396901
+      ],
+      "trial_trough": -0.7199999999999953,
+      "trial_gis": -0.7425596737655099,
+      "station": 66.38051894149021,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        289.5048963674377,
+        -177.49241918919617
+      ],
+      "normal": [
+        0.8400178071367881,
+        -0.5425588297070666
+      ],
+      "trial_trough": -0.8799999999999955,
+      "trial_gis": -0.7899134401554146,
+      "station": 68.21804195717161,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        288.96363844288715,
+        -178.52105251403418
+      ],
+      "normal": [
+        0.5010556330638185,
+        -0.865415075310695
+      ],
+      "trial_trough": -1.3599999999999959,
+      "trial_gis": -0.6769330188321855,
+      "station": 68.67742271109195,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        287.50447288735626,
+        -178.49990412386123
+      ],
+      "normal": [
+        0.021430032377474432,
+        -0.9997703504867007
+      ],
+      "trial_trough": -0.9599999999999955,
+      "trial_gis": -0.09271003932371231,
+      "station": 70.05556497285299,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        285.38458231448124,
+        -177.9927837078395
+      ],
+      "normal": [
+        -0.062401429430115944,
+        -0.9980511317588284
+      ],
+      "trial_trough": -0.5599999999999952,
+      "trial_gis": 0.33751446059628454,
+      "station": 72.58215911941491,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        284.4806544464953,
+        -177.49283523681243
+      ],
+      "normal": [
+        -0.3473034165913031,
+        -0.9377528122186614
+      ],
+      "trial_trough": -0.399999999999995,
+      "trial_gis": 0.5315667286480541,
+      "station": 73.73061100421577,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        283.6117135461008,
+        -177.0520072751084
+      ],
+      "normal": [
+        -0.42204754381283116,
+        -0.9065736984721962
+      ],
+      "trial_trough": -0.399999999999995,
+      "trial_gis": 0.4734078803115326,
+      "station": 74.87906288901664,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        282.42956661997704,
+        -175.93081242883426
+      ],
+      "normal": [
+        -0.700769517931258,
+        -0.7133877506226135
+      ],
+      "trial_trough": 5.329070518200751e-15,
+      "trial_gis": 0.6501745796835396,
+      "station": 76.71658590469804,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        281.5341326483493,
+        -175.02287734358387
+      ],
+      "normal": [
+        -0.5567581310608578,
+        -0.8306746556249448
+      ],
+      "trial_trough": 0.0800000000000054,
+      "trial_gis": 0.7891024739841992,
+      "station": 77.63534741253872,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        280.5863037817408,
+        -174.06714166578442
+      ],
+      "normal": [
+        -0.6140346430680241,
+        -0.7892790742901551
+      ],
+      "trial_trough": 0.48000000000000576,
+      "trial_gis": 0.9792944687487045,
+      "station": 79.47287042822012,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        279.49323785199994,
+        -173.49482652670167
+      ],
+      "normal": [
+        -0.6076293651337037,
+        -0.7942207216052803
+      ],
+      "trial_trough": 0.16000000000000547,
+      "trial_gis": 0.8717128880551245,
+      "station": 81.08070306694134,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        278.0656671192419,
+        -173.53500408016853
+      ],
+      "normal": [
+        -0.4703958901412655,
+        -0.8824554983330357
+      ],
+      "trial_trough": -0.8799999999999955,
+      "trial_gis": -0.08008184173031518,
+      "station": 81.99946457478202,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        276.9502448366489,
+        -172.4911929018686
+      ],
+      "normal": [
+        -0.17429920794317882,
+        -0.9846927369034365
+      ],
+      "trial_trough": -0.1599999999999948,
+      "trial_gis": 0.5830750154435478,
+      "station": 83.1479164595829,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        275.0643223431439,
+        -171.54169044684818
+      ],
+      "normal": [
+        -0.5438958148743738,
+        -0.8391527528180677
+      ],
+      "trial_trough": -0.399999999999995,
+      "trial_gis": 0.471318833202176,
+      "station": 86.13389136006515,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        273.9031861003107,
+        -170.46330266826087
+      ],
+      "normal": [
+        -0.3544415970554591,
+        -0.9350781541009155
+      ],
+      "trial_trough": -0.07999999999999474,
+      "trial_gis": 0.9849824073198585,
+      "station": 87.28234324486603,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        272.3849308771795,
+        -170.46595012671116
+      ],
+      "normal": [
+        -0.2837460189659735,
+        -0.9588994716449486
+      ],
+      "trial_trough": -0.31999999999999496,
+      "trial_gis": 0.40890364695051606,
+      "station": 89.11986626054741,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        271.44752813709175,
+        -170.4914268909325
+      ],
+      "normal": [
+        -0.16124684381183213,
+        -0.9869141073876301
+      ],
+      "trial_trough": -0.5599999999999952,
+      "trial_gis": 0.2271366588962051,
+      "station": 90.03862776838811,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        270.55470208298135,
+        -170.51507138497772
+      ],
+      "normal": [
+        -0.26562034794115275,
+        -0.964077709917422
+      ],
+      "trial_trough": -0.9599999999999955,
+      "trial_gis": -0.12890045531932853,
+      "station": 91.18707965318897,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        268.99615449465153,
+        -171.49898102897876
+      ],
+      "normal": [
+        -0.2561375938471555,
+        -0.9666403328116355
+      ],
+      "trial_trough": -2.1599999999999966,
+      "trial_gis": -1.4547825818733844,
+      "station": 92.56522191495002,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        267.21832059999264,
+        -171.39055822653654
+      ],
+      "normal": [
+        0.44813540598669616,
+        -0.8939656916801332
+      ],
+      "trial_trough": -1.2799999999999958,
+      "trial_gis": -0.8251921645028233,
+      "station": 95.78088719239246,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        266.32028663857216,
+        -172.60249950920263
+      ],
+      "normal": [
+        0.49543247416986375,
+        -0.8686464548583199
+      ],
+      "trial_trough": -1.9199999999999964,
+      "trial_gis": -1.4121356207144768,
+      "station": 97.38871983111368,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 90,
+      "xy": [
+        262.80552044788743,
+        -170.7976240406436
+      ],
+      "normal": [
+        0.34183559670066177,
+        -0.9397597697434715
+      ],
+      "trial_trough": 0.9600000000000062,
+      "trial_gis": 1.578391502268127,
+      "station": 99.22624284679506,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        340.64373879071775,
+        -166.4612453875985
+      ],
+      "normal": [
+        0.26032236225580746,
+        -0.9655217593143907
+      ],
+      "trial_trough": -2.2399999999999967,
+      "trial_gis": -1.3944168688142844,
+      "station": 20.39916680437758,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        338.9958047314291,
+        -166.50312545339168
+      ],
+      "normal": [
+        0.5974281009796314,
+        -0.8019224801437301
+      ],
+      "trial_trough": -1.1999999999999957,
+      "trial_gis": -0.8243370650946775,
+      "station": 22.69120801835259,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        337.4851917777863,
+        -167.00842417931756
+      ],
+      "normal": [
+        0.49447154795189474,
+        -0.8691938151333436
+      ],
+      "trial_trough": -0.9599999999999955,
+      "trial_gis": -0.2645111600715958,
+      "station": 24.066432746737593,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        336.89298394281246,
+        -167.92101237470925
+      ],
+      "normal": [
+        0.19705358009535595,
+        -0.9803927205827281
+      ],
+      "trial_trough": -1.7599999999999962,
+      "trial_gis": -0.8217518207012051,
+      "station": 24.754045110930097,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        334.3345990546806,
+        -168.6877936464408
+      ],
+      "normal": [
+        0.7504309687920863,
+        -0.6609488339332862
+      ],
+      "trial_trough": -1.1999999999999957,
+      "trial_gis": -0.9727080133997698,
+      "station": 28.879719296085113,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        333.01036338683906,
+        -168.49072310027682
+      ],
+      "normal": [
+        0.6669703609236621,
+        -0.7450842486922937
+      ],
+      "trial_trough": -0.31999999999999496,
+      "trial_gis": 0.23093401207507414,
+      "station": 29.338127538880116,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        331.9372762741836,
+        -169.5375983224719
+      ],
+      "normal": [
+        0.5141346148969198,
+        -0.8577095066307683
+      ],
+      "trial_trough": -0.5599999999999952,
+      "trial_gis": -0.15305284992614146,
+      "station": 30.942556388662624,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        331.06374722062304,
+        -170.46203905900768
+      ],
+      "normal": [
+        0.5116447442520455,
+        -0.8591970994360135
+      ],
+      "trial_trough": -0.7999999999999954,
+      "trial_gis": -0.32831099210160114,
+      "station": 32.31778111704763,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        329.475560612266,
+        -171.50135503336844
+      ],
+      "normal": [
+        0.055359627351301115,
+        -0.9984664799879489
+      ],
+      "trial_trough": -1.599999999999996,
+      "trial_gis": -0.737737555059718,
+      "station": 33.69300584543263,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        326.5445448658604,
+        -171.45349552663725
+      ],
+      "normal": [
+        0.7221582334611437,
+        -0.6917278987031535
+      ],
+      "trial_trough": 0.0800000000000054,
+      "trial_gis": 0.41229712803361296,
+      "station": 37.13106766639515,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        325.442837762541,
+        -172.50713336305267
+      ],
+      "normal": [
+        0.12383104874076244,
+        -0.9923033162132247
+      ],
+      "trial_trough": -0.7199999999999953,
+      "trial_gis": 0.11698911545062142,
+      "station": 38.964700637575156,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        323.2376437844034,
+        -173.68812507618406
+      ],
+      "normal": [
+        0.5827299576744803,
+        -0.8126658577968552
+      ],
+      "trial_trough": -1.3599999999999959,
+      "trial_gis": -1.0384939843023606,
+      "station": 42.63196657993517,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        321.9007154894303,
+        -173.5509251982319
+      ],
+      "normal": [
+        0.45638806289486294,
+        -0.8897808359630336
+      ],
+      "trial_trough": -0.7999999999999954,
+      "trial_gis": 0.009929130561497046,
+      "station": 43.09037482273017,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        320.4996847215182,
+        -174.0001150986015
+      ],
+      "normal": [
+        0.34293191201414575,
+        -0.9393602630100564
+      ],
+      "trial_trough": -0.6399999999999952,
+      "trial_gis": 0.19866451286406855,
+      "station": 44.92400779391018,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        319.01884569332793,
+        -174.48129444216346
+      ],
+      "normal": [
+        0.7044630620833768,
+        -0.7097406527458552
+      ],
+      "trial_trough": -0.1599999999999948,
+      "trial_gis": 0.2212776053545416,
+      "station": 46.528436643692686,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        318.50604569332853,
+        -175.48958496086493
+      ],
+      "normal": [
+        0.8648519977131894,
+        -0.5020269136724697
+      ],
+      "trial_trough": 5.329070518200751e-15,
+      "trial_gis": 0.014768943763227991,
+      "station": 47.44525312928269,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        317.6225521530949,
+        -175.91701065026385
+      ],
+      "normal": [
+        0.5607098933029688,
+        -0.8280123281402115
+      ],
+      "trial_trough": 5.329070518200751e-15,
+      "trial_gis": 0.7533990616313838,
+      "station": 48.36206961487269,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        316.56759222975296,
+        -176.97206760737438
+      ],
+      "normal": [
+        0.38192207276825396,
+        -0.9241945305683216
+      ],
+      "trial_trough": -0.4799999999999951,
+      "trial_gis": 0.08437334148649138,
+      "station": 50.4249067074502,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        315.5796552069817,
+        -177.4942053089268
+      ],
+      "normal": [
+        0.07255543854378206,
+        -0.9973643809249052
+      ],
+      "trial_trough": -0.9599999999999955,
+      "trial_gis": -0.039702780584984984,
+      "station": 51.570927314437704,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        314.0808411397545,
+        -177.50334557382143
+      ],
+      "normal": [
+        -0.0413491516411951,
+        -0.9991447581099314
+      ],
+      "trial_trough": -1.1199999999999957,
+      "trial_gis": -0.3927756551041212,
+      "station": 53.17535616422021,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        312.44128780534305,
+        -177.5274456415276
+      ],
+      "normal": [
+        0.4234760320523025,
+        -0.9059073077733931
+      ],
+      "trial_trough": -0.6399999999999952,
+      "trial_gis": -0.09634519363222567,
+      "station": 55.00898913540021,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        311.6119803586813,
+        -177.46591538734907
+      ],
+      "normal": [
+        0.2911900289461653,
+        -0.9566652324833026
+      ],
+      "trial_trough": -0.399999999999995,
+      "trial_gis": 0.3217316206976761,
+      "station": 55.92580562099022,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        310.4409151028554,
+        -177.5012800499026
+      ],
+      "normal": [
+        0.021659504740834837,
+        -0.99976540540988
+      ],
+      "trial_trough": -0.4799999999999951,
+      "trial_gis": 0.2681434911461472,
+      "station": 57.301030349375225,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        309.00047330157093,
+        -177.4999163354512
+      ],
+      "normal": [
+        0.17406930593232606,
+        -0.9847334038876909
+      ],
+      "trial_trough": -0.23999999999999488,
+      "trial_gis": 0.4365407208364752,
+      "station": 58.67625507776023,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        307.6165576184449,
+        -177.48399212504646
+      ],
+      "normal": [
+        0.13606153032875393,
+        -0.9907003885961676
+      ],
+      "trial_trough": -0.399999999999995,
+      "trial_gis": 0.2945040953091064,
+      "station": 60.50988804894024,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2265,
+      "xy": [
+        306.6711095119893,
+        -177.40712233865747
+      ],
+      "normal": [
+        0.4770507641638985,
+        -0.8788757411663155
+      ],
+      "trial_trough": 0.3200000000000056,
+      "trial_gis": 0.6667677101287282,
+      "station": 60.96829629173524,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 85,
+      "xy": [
+        372.34377160971854,
+        -114.50738740647367
+      ],
+      "normal": [
+        0.047233164926780265,
+        -0.998883891216091
+      ],
+      "trial_trough": -2.3199999999999967,
+      "trial_gis": -1.2755226291327202,
+      "station": 18.978890738644974,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 85,
+      "xy": [
+        371.1919794815755,
+        -112.50383743729773
+      ],
+      "normal": [
+        -0.019984796649392424,
+        -0.9998002840082026
+      ],
+      "trial_trough": -0.23999999999999488,
+      "trial_gis": 0.6505781163977324,
+      "station": 20.122197409647683,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 85,
+      "xy": [
+        369.53898085627503,
+        -110.49811550771658
+      ],
+      "normal": [
+        0.04828765061635449,
+        -0.9988334710040272
+      ],
+      "trial_trough": 1.840000000000007,
+      "trial_gis": 2.628345935087735,
+      "station": 21.722826749051475,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 85,
+      "xy": [
+        368.39955821347604,
+        -113.5279598112628
+      ],
+      "normal": [
+        0.2681719809256584,
+        -0.9633710544989444
+      ],
+      "trial_trough": -1.0399999999999956,
+      "trial_gis": -0.3540228230114393,
+      "station": 23.09479475425473,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 85,
+      "xy": [
+        367.4561165725664,
+        -115.52885423503324
+      ],
+      "normal": [
+        0.549398003497532,
+        -0.8355607899805529
+      ],
+      "trial_trough": -2.0799999999999965,
+      "trial_gis": -1.29123907062453,
+      "station": 25.152746762059603,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 85,
+      "xy": [
+        366.1127762045388,
+        -115.4647143173292
+      ],
+      "normal": [
+        0.2986074063261613,
+        -0.9543760353692683
+      ],
+      "trial_trough": -1.599999999999996,
+      "trial_gis": -0.6906945602500213,
+      "station": 26.06739209886177,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 85,
+      "xy": [
+        362.21126376814595,
+        -115.50666559402379
+      ],
+      "normal": [
+        0.023079259997028766,
+        -0.999733638404745
+      ],
+      "trial_trough": -1.6799999999999962,
+      "trial_gis": -0.8591576032328611,
+      "station": 29.954634780270982,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 85,
+      "xy": [
+        361.1691948520993,
+        -115.52760216570294
+      ],
+      "normal": [
+        0.08315039787111791,
+        -0.996537009515389
+      ],
+      "trial_trough": -1.6799999999999962,
+      "trial_gis": -0.885343765936794,
+      "station": 31.09794145127369,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 85,
+      "xy": [
+        359.78892582614753,
+        -114.97839596502101
+      ],
+      "normal": [
+        0.07456547662143742,
+        -0.9972161198537747
+      ],
+      "trial_trough": -1.1199999999999957,
+      "trial_gis": -0.29578707625273803,
+      "station": 32.46990945647694,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 85,
+      "xy": [
+        358.54212160432604,
+        -113.48956011395865
+      ],
+      "normal": [
+        0.24057203405792763,
+        -0.9706312875800117
+      ],
+      "trial_trough": 0.720000000000006,
+      "trial_gis": 1.3435185651864048,
+      "station": 33.38455479327911,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 85,
+      "xy": [
+        356.8644734298053,
+        -112.50510922930847
+      ],
+      "normal": [
+        0.03767233607572138,
+        -0.9992901456006649
+      ],
+      "trial_trough": 1.6800000000000068,
+      "trial_gis": 2.456501590454795,
+      "station": 35.44250680108399,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        397.82937213522416,
+        -61.484042037945464
+      ],
+      "normal": [
+        0.04839287740599533,
+        -0.99882837835955
+      ],
+      "trial_trough": -2.0799999999999965,
+      "trial_gis": -2.220019526776665,
+      "station": 28.727148700706472,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        396.5177211813116,
+        -62.49867022475602
+      ],
+      "normal": [
+        0.07482837059896041,
+        -0.9971964274672792
+      ],
+      "trial_trough": -3.1199999999999974,
+      "trial_gis": -3.2635012988806733,
+      "station": 30.335869027946035,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        394.4928913418722,
+        -62.50095558834167
+      ],
+      "normal": [
+        0.13322763565757947,
+        -0.9910854640731501
+      ],
+      "trial_trough": -2.8799999999999972,
+      "trial_gis": -3.0541238955277987,
+      "station": 32.634040924002555,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        393.06329926291545,
+        -62.47993886732919
+      ],
+      "normal": [
+        0.30211570264421744,
+        -0.9532712637102783
+      ],
+      "trial_trough": -2.3199999999999967,
+      "trial_gis": -2.5632507992789932,
+      "station": 34.47257844084777,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        391.7459561862947,
+        -63.35790976051346
+      ],
+      "normal": [
+        0.5002306704166253,
+        -0.8658921851908201
+      ],
+      "trial_trough": -2.719999999999997,
+      "trial_gis": -2.8614102421814502,
+      "station": 36.770750336904285,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        389.9258704075311,
+        -63.56942567049867
+      ],
+      "normal": [
+        0.683569908182185,
+        -0.7298850461735732
+      ],
+      "trial_trough": -1.599999999999996,
+      "trial_gis": -1.8987914337154996,
+      "station": 38.839105043355154,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        388.516443525402,
+        -63.98612084386504
+      ],
+      "normal": [
+        0.6450048056322716,
+        -0.7641785136414629
+      ],
+      "trial_trough": -1.0399999999999956,
+      "trial_gis": -1.3298630739269055,
+      "station": 39.98819099138341,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        387.49051215147756,
+        -64.50984763746506
+      ],
+      "normal": [
+        0.7201397506127636,
+        -0.6938290420466605
+      ],
+      "trial_trough": -1.1199999999999957,
+      "trial_gis": -0.9819432011950414,
+      "station": 41.59691131862297,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        386.4964817923614,
+        -64.50454960902371
+      ],
+      "normal": [
+        0.7910661668296187,
+        -0.6117305940505949
+      ],
+      "trial_trough": -0.1599999999999948,
+      "trial_gis": -0.3577072644725623,
+      "station": 42.28636288743993,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        386.55601189961845,
+        -66.39737740198993
+      ],
+      "normal": [
+        0.8777663230064637,
+        -0.4790890128104716
+      ],
+      "trial_trough": -0.9599999999999955,
+      "trial_gis": -1.19311010589712,
+      "station": 44.12490040428514,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        385.5052268922212,
+        -67.49011123732713
+      ],
+      "normal": [
+        0.884095870790683,
+        -0.4673055651828512
+      ],
+      "trial_trough": -0.6399999999999952,
+      "trial_gis": -0.96887378422748,
+      "station": 45.503803541919055,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        384.63382995787487,
+        -69.30887154004775
+      ],
+      "normal": [
+        0.8191513003273763,
+        -0.5735774988368778
+      ],
+      "trial_trough": -0.7999999999999954,
+      "trial_gis": -0.8365582497652835,
+      "station": 47.34234105876427,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        383.44299097409373,
+        -69.59768084623718
+      ],
+      "normal": [
+        0.863669081935143,
+        -0.5040592394841177
+      ],
+      "trial_trough": 0.0800000000000054,
+      "trial_gis": -0.15113445534665518,
+      "station": 48.49142700679253,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        382.9114347074988,
+        -70.64832702552653
+      ],
+      "normal": [
+        0.8585914338991075,
+        -0.5126604623286981
+      ],
+      "trial_trough": 0.0800000000000054,
+      "trial_gis": 0.12082961523556472,
+      "station": 49.87033014442644,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        386.09318431227285,
+        -75.06973046732223
+      ],
+      "normal": [
+        0.8138244297961473,
+        -0.5811108306226753
+      ],
+      "trial_trough": -4.879999999999999,
+      "trial_gis": -4.92394698443395,
+      "station": 51.708867661271654,
+      "evidence": "room name"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        380.5439584254867,
+        -72.4385170251229
+      ],
+      "normal": [
+        0.8134704664157137,
+        -0.5816062244073744
+      ],
+      "trial_trough": 1.1200000000000063,
+      "trial_gis": 0.8980453506742992,
+      "station": 52.85795360929991,
+      "evidence": "room name"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        382.9334486673003,
+        -76.37223408054334
+      ],
+      "normal": [
+        0.8386196655281106,
+        -0.5447174098461696
+      ],
+      "trial_trough": -3.0399999999999974,
+      "trial_gis": -2.9821234774977845,
+      "station": 54.926308315750774,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        377.4852247098773,
+        -76.52013636936941
+      ],
+      "normal": [
+        0.8062403907909163,
+        -0.5915880595966341
+      ],
+      "trial_trough": 1.2000000000000064,
+      "trial_gis": 0.958617183533593,
+      "station": 58.1437489702299,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        377.03774187772336,
+        -77.44644654393737
+      ],
+      "normal": [
+        0.817403132352,
+        -0.5760660719232983
+      ],
+      "trial_trough": 1.0400000000000063,
+      "trial_gis": 0.7408666618623616,
+      "station": 59.29283491825816,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        375.55068824052296,
+        -80.40862156096826
+      ],
+      "normal": [
+        0.8744721865912252,
+        -0.48507565892174137
+      ],
+      "trial_trough": 0.720000000000006,
+      "trial_gis": 0.34330176121119793,
+      "station": 62.510275572737285,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        375.4935997089766,
+        -81.51292018941355
+      ],
+      "normal": [
+        0.89608011061546,
+        -0.443892369115966
+      ],
+      "trial_trough": 0.3200000000000056,
+      "trial_gis": -0.14517283490648974,
+      "station": 63.42954433115989,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        375.047065379281,
+        -82.40702895350093
+      ],
+      "normal": [
+        0.8921902933318312,
+        -0.4516596954394547
+      ],
+      "trial_trough": 0.3200000000000056,
+      "trial_gis": -0.14076153284918747,
+      "station": 64.3488130895825,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        374.47601152984305,
+        -83.5328445183408
+      ],
+      "normal": [
+        0.8075467925034618,
+        -0.5898035078883227
+      ],
+      "trial_trough": 0.3200000000000056,
+      "trial_gis": -0.23420681559742104,
+      "station": 65.7277162272164,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        372.53047301046234,
+        -84.46760903167504
+      ],
+      "normal": [
+        0.7283414548270922,
+        -0.685214364400189
+      ],
+      "trial_trough": 0.9600000000000062,
+      "trial_gis": 0.5983593899665288,
+      "station": 67.56625374406163,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        372.5216484049582,
+        -85.48169827121606
+      ],
+      "normal": [
+        0.6456101313200284,
+        -0.7636671777266165
+      ],
+      "trial_trough": 0.0800000000000054,
+      "trial_gis": -0.08296938188326197,
+      "station": 68.48552250248423,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        371.0635766660294,
+        -85.48378842925541
+      ],
+      "normal": [
+        0.2470860510525085,
+        -0.9689935414517875
+      ],
+      "trial_trough": 0.6400000000000059,
+      "trial_gis": 0.6439152798559413,
+      "station": 69.86442564011814,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        369.4738842631397,
+        -85.5014352433974
+      ],
+      "normal": [
+        0.05487422726026429,
+        -0.9984932744803987
+      ],
+      "trial_trough": 0.800000000000006,
+      "trial_gis": 0.6303187123592323,
+      "station": 71.70296315696336,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        368.60558716198443,
+        -85.47805802070093
+      ],
+      "normal": [
+        0.20346236618211255,
+        -0.9790827674653333
+      ],
+      "trial_trough": 0.800000000000006,
+      "trial_gis": 0.6510607340861795,
+      "station": 72.39241472578031,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        366.29408453385724,
+        -85.48405907912013
+      ],
+      "normal": [
+        -0.07718394028704077,
+        -0.9970168701490294
+      ],
+      "trial_trough": 0.9600000000000062,
+      "trial_gis": 1.3436427933929327,
+      "station": 75.15022100104814,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        365.06022468968035,
+        -85.5052115677155
+      ],
+      "normal": [
+        -0.08621320534794648,
+        -0.9962767101682307
+      ],
+      "trial_trough": 0.9600000000000062,
+      "trial_gis": 1.0928810806589864,
+      "station": 76.2993069490764,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        363.4484716559166,
+        -85.50056716206542
+      ],
+      "normal": [
+        0.011006131147831527,
+        -0.9999394307042586
+      ],
+      "trial_trough": 1.1200000000000063,
+      "trial_gis": 1.1310359072381033,
+      "station": 77.90802727631595,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2468,
+      "xy": [
+        362.4367448984604,
+        -86.51011435149105
+      ],
+      "normal": [
+        0.1578921000189385,
+        -0.9874563710623421
+      ],
+      "trial_trough": 0.16000000000000547,
+      "trial_gis": 0.13471115497174235,
+      "station": 78.82729603473857,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2214,
+      "xy": [
+        473.27341068943906,
+        -57.59760225328682
+      ],
+      "normal": [
+        0.8713528463004591,
+        0.4906569241782783
+      ],
+      "trial_trough": 1.840000000000007,
+      "trial_gis": 1.9042277214459897,
+      "station": 6.840388498235911,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2214,
+      "xy": [
+        475.4600098060596,
+        -58.4736343155764
+      ],
+      "normal": [
+        0.5504372317992867,
+        0.8348765500654204
+      ],
+      "trial_trough": 0.720000000000006,
+      "trial_gis": 0.9155010515325473,
+      "station": 8.43647914782429,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2214,
+      "xy": [
+        475.59960697265393,
+        -59.694074514013536
+      ],
+      "normal": [
+        0.8896655639110288,
+        0.45661272911611994
+      ],
+      "trial_trough": 1.5200000000000067,
+      "trial_gis": 1.663923978522678,
+      "station": 10.488595697295063,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2214,
+      "xy": [
+        476.5121851388096,
+        -59.52111681726999
+      ],
+      "normal": [
+        0.866143689902182,
+        0.49979506644487065
+      ],
+      "trial_trough": 0.5600000000000058,
+      "trial_gis": 0.753684781212432,
+      "station": 10.71660864723626,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2214,
+      "xy": [
+        478.55800642329126,
+        -60.61557434236543
+      ],
+      "normal": [
+        0.8937479631054388,
+        0.4485694800639909
+      ],
+      "trial_trough": -0.6399999999999952,
+      "trial_gis": -0.15274912443841748,
+      "station": 12.768725196707035,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2214,
+      "xy": [
+        479.41550279062915,
+        -61.49881592221228
+      ],
+      "normal": [
+        0.014011841986465436,
+        0.9999018293233323
+      ],
+      "trial_trough": -0.31999999999999496,
+      "trial_gis": -0.06967209777832122,
+      "station": 15.048854696119005,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2214,
+      "xy": [
+        481.6040577677555,
+        -61.52368941118655
+      ],
+      "normal": [
+        0.22197676537549077,
+        0.9750519553508081
+      ],
+      "trial_trough": -0.8799999999999955,
+      "trial_gis": -0.5166671630237164,
+      "station": 17.78501009541337,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2214,
+      "xy": [
+        482.4444433308947,
+        -62.41767877871162
+      ],
+      "normal": [
+        0.8288960880675179,
+        0.5594026056306547
+      ],
+      "trial_trough": -0.7199999999999953,
+      "trial_gis": -0.02661627588336419,
+      "station": 18.925074845119354,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2214,
+      "xy": [
+        483.88210776543315,
+        -62.494631366466564
+      ],
+      "normal": [
+        0.04549133863564817,
+        0.9989647331658595
+      ],
+      "trial_trough": -0.9599999999999955,
+      "trial_gis": -0.3457359314899955,
+      "station": 21.66123024441372,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2214,
+      "xy": [
+        484.82883887772346,
+        -63.33624794664754
+      ],
+      "normal": [
+        0.6912947736613868,
+        0.7225728585467709
+      ],
+      "trial_trough": -0.7999999999999954,
+      "trial_gis": -0.13496511137478204,
+      "station": 22.801294994119704,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        491.5,
+        -45.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -1.6799999999999962,
+      "trial_gis": -0.5396161831460371,
+      "station": 69.67941625890701,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        491.5,
+        -46.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -1.1999999999999957,
+      "trial_gis": -0.11309606051293372,
+      "station": 70.82924160971406,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        491.5,
+        -47.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -0.9599999999999955,
+      "trial_gis": 0.16664782964474786,
+      "station": 71.7491018903597,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        491.5,
+        -48.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -0.8799999999999955,
+      "trial_gis": 0.36432405484945074,
+      "station": 72.66896217100533,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        491.5,
+        -49.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -0.9599999999999955,
+      "trial_gis": 0.5249660420733754,
+      "station": 73.81878752181238,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        492.0,
+        -50.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -1.519999999999996,
+      "trial_gis": -0.2831466254794684,
+      "station": 74.73864780245802,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        492.5,
+        -51.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -2.1599999999999966,
+      "trial_gis": -1.3443143149324235,
+      "station": 75.88847315326505,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        492.5,
+        -52.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -2.479999999999997,
+      "trial_gis": -1.5542533017209592,
+      "station": 76.80833343391069,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        492.5,
+        -53.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -2.719999999999997,
+      "trial_gis": -1.8375763662231313,
+      "station": 77.72819371455633,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        492.5,
+        -54.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -3.0399999999999974,
+      "trial_gis": -2.2222206674585285,
+      "station": 78.64805399520198,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        492.0,
+        -55.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -3.1999999999999975,
+      "trial_gis": -2.2181826325343352,
+      "station": 79.56791427584761,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        491.0,
+        -56.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -2.399999999999997,
+      "trial_gis": -1.4661353925078324,
+      "station": 81.17766976697747,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        490.5,
+        -57.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -2.2399999999999967,
+      "trial_gis": -1.1589767940464646,
+      "station": 82.55746018794592,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        490.5,
+        -58.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -2.479999999999997,
+      "trial_gis": -1.5350375915563277,
+      "station": 83.24735539843016,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        490.0,
+        -59.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -2.2399999999999967,
+      "trial_gis": -1.3812193278817244,
+      "station": 84.6271458193986,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        489.0,
+        -60.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -1.599999999999996,
+      "trial_gis": -0.6859716760280563,
+      "station": 85.77697117020566,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        488.5,
+        -61.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -1.3599999999999959,
+      "trial_gis": -0.3024545200951461,
+      "station": 86.9267965210127,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        488.0,
+        -62.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -1.1199999999999957,
+      "trial_gis": 0.03365142351764666,
+      "station": 88.07662187181975,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        487.5,
+        -63.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -1.0399999999999956,
+      "trial_gis": 0.001877581439399735,
+      "station": 89.2264472226268,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        487.0,
+        -64.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -1.0399999999999956,
+      "trial_gis": 0.18651347768932214,
+      "station": 90.37627257343384,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        486.5,
+        -65.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -0.7199999999999953,
+      "trial_gis": 0.2374037132639913,
+      "station": 91.52609792424089,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        486.5,
+        -66.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -0.7199999999999953,
+      "trial_gis": 0.1464242214011467,
+      "station": 92.44595820488652,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        486.0,
+        -67.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -0.4799999999999951,
+      "trial_gis": 0.5575020047987013,
+      "station": 93.59578355569357,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        485.5,
+        -68.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -0.1599999999999948,
+      "trial_gis": 0.7051837265081665,
+      "station": 94.74560890650062,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        485.5,
+        -69.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -0.7999999999999954,
+      "trial_gis": 0.5310574298853139,
+      "station": 95.89543425730767,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        485.5,
+        -70.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -1.519999999999996,
+      "trial_gis": 0.04840633899097176,
+      "station": 96.8152945379533,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        485.0,
+        -71.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -1.519999999999996,
+      "trial_gis": 0.31940505729753577,
+      "station": 97.96511988876034,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        484.0,
+        -72.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -0.8799999999999955,
+      "trial_gis": 0.6806348123342718,
+      "station": 99.3449103097288,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        483.5,
+        -73.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -0.9599999999999955,
+      "trial_gis": 0.5765473571304361,
+      "station": 100.72470073069726,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        483.0,
+        -74.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -0.8799999999999955,
+      "trial_gis": 0.5159707196615572,
+      "station": 101.6445610113429,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        482.0,
+        -75.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": -0.7999999999999954,
+      "trial_gis": 1.2212715890293886,
+      "station": 103.48428157263417,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        481.0,
+        -76.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": 0.720000000000006,
+      "trial_gis": 1.3619259404905275,
+      "station": 104.86407199360262,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        480.5,
+        -77.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": 0.9600000000000062,
+      "trial_gis": 0.30652792654518635,
+      "station": 107.62365283553953,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        480.0,
+        -78.5
+      ],
+      "normal": [
+        1.0,
+        0.0
+      ],
+      "trial_trough": 0.0800000000000054,
+      "trial_gis": 1.987310198536529,
+      "station": 107.85361790570094,
+      "evidence": "Old Ford survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        479.4032048681267,
+        -79.64509937388445
+      ],
+      "normal": [
+        0.8318856281694048,
+        -0.5549471160797171
+      ],
+      "trial_trough": -0.9599999999999955,
+      "trial_gis": 0.6472101828601444,
+      "station": 109.2334083266694,
+      "evidence": "room name"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        478.4182867765643,
+        -82.58454918500684
+      ],
+      "normal": [
+        0.7190634054807499,
+        -0.6949444718093861
+      ],
+      "trial_trough": 2.2400000000000073,
+      "trial_gis": 0.028799546248241714,
+      "station": 112.91284944925195,
+      "evidence": "room name"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        475.5442464961389,
+        -86.44223315543117
+      ],
+      "normal": [
+        0.7938811223455485,
+        -0.6080729919864657
+      ],
+      "trial_trough": -2.559999999999997,
+      "trial_gis": -0.5147538689773208,
+      "station": 118.20204606296437,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        475.0237030179348,
+        -87.42785882162794
+      ],
+      "normal": [
+        0.9500337489661045,
+        -0.31214720217456526
+      ],
+      "trial_trough": -1.1999999999999957,
+      "trial_gis": -0.2829514913907982,
+      "station": 120.04176662425564,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        474.50330344328444,
+        -89.42222714643091
+      ],
+      "normal": [
+        0.9990991334205727,
+        -0.04243726662098831
+      ],
+      "trial_trough": -0.8799999999999955,
+      "trial_gis": 0.23830946616035928,
+      "station": 122.11145225570831,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        474.4777555080477,
+        -90.55752687459702
+      ],
+      "normal": [
+        0.9326989013744842,
+        -0.3606560125310963
+      ],
+      "trial_trough": -1.1999999999999957,
+      "trial_gis": -0.26445588820413424,
+      "station": 123.49124267667678,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        474.0221456851281,
+        -91.42611181528149
+      ],
+      "normal": [
+        0.9579003643524356,
+        -0.28710083938134223
+      ],
+      "trial_trough": -0.9599999999999955,
+      "trial_gis": 0.20664271645014085,
+      "station": 124.41110295732241,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        473.51799254324845,
+        -92.36640779865249
+      ],
+      "normal": [
+        0.9910518535450462,
+        -0.13347742724868636
+      ],
+      "trial_trough": -1.7599999999999962,
+      "trial_gis": 0.47038616189331717,
+      "station": 125.33096323796805,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        473.4968483612105,
+        -93.50891286529318
+      ],
+      "normal": [
+        0.9427935810154069,
+        -0.3333770591929587
+      ],
+      "trial_trough": -1.9999999999999964,
+      "trial_gis": 0.0375126026885514,
+      "station": 126.71075365893651,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        473.53751595424006,
+        -95.43037755414979
+      ],
+      "normal": [
+        0.8803288412775063,
+        -0.47436392275868017
+      ],
+      "trial_trough": -1.439999999999996,
+      "trial_gis": -0.8872367872863072,
+      "station": 129.0104043605506,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        472.49706246008884,
+        -96.4694774218098
+      ],
+      "normal": [
+        0.9954007089717974,
+        0.09579889654084195
+      ],
+      "trial_trough": -0.399999999999995,
+      "trial_gis": 0.5158115629052031,
+      "station": 129.93026464119623,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        472.5003298590681,
+        -97.50118306814066
+      ],
+      "normal": [
+        0.9632594065173646,
+        0.268572738296005
+      ],
+      "trial_trough": -0.23999999999999488,
+      "trial_gis": 0.7936363706192274,
+      "station": 130.62015985168046,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        472.4321771939436,
+        -98.8270989494755
+      ],
+      "normal": [
+        0.9791729259329794,
+        -0.2030280303796694
+      ],
+      "trial_trough": -0.1599999999999948,
+      "trial_gis": 0.6006311266130624,
+      "station": 132.68984548313315,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        472.49600025075983,
+        -99.90943180320075
+      ],
+      "normal": [
+        0.9990262457043009,
+        0.04411984127317264
+      ],
+      "trial_trough": -0.31999999999999496,
+      "trial_gis": 0.5077628814951669,
+      "station": 133.8396708339402,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        473.4947287277568,
+        -100.9762430129418
+      ],
+      "normal": [
+        0.9762571329494555,
+        0.21661488952818841
+      ],
+      "trial_trough": -1.1199999999999957,
+      "trial_gis": -0.12031662710470935,
+      "station": 134.98949618474725,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        473.4999791105962,
+        -102.49973330663441
+      ],
+      "normal": [
+        0.9969464508794814,
+        0.07808824545862059
+      ],
+      "trial_trough": -0.8799999999999955,
+      "trial_gis": -0.005803235714924564,
+      "station": 136.5992516758771,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        473.49816351093835,
+        -103.97858885308348
+      ],
+      "normal": [
+        0.9963417062997093,
+        0.08545878707180374
+      ],
+      "trial_trough": -0.6399999999999952,
+      "trial_gis": 0.11138889211014394,
+      "station": 137.97904209684557,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        473.500492779275,
+        -105.45956000402505
+      ],
+      "normal": [
+        0.9999257657535933,
+        -0.012184538649053426
+      ],
+      "trial_trough": -0.7999999999999954,
+      "trial_gis": 0.22159938027554663,
+      "station": 139.58879758797542,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        473.5083732063571,
+        -106.44885813180345
+      ],
+      "normal": [
+        0.9868606266742683,
+        -0.161573833030198
+      ],
+      "trial_trough": -1.1199999999999957,
+      "trial_gis": 0.07596613590891224,
+      "station": 140.50865786862107,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        473.01818989516045,
+        -107.37109493350331
+      ],
+      "normal": [
+        0.9901901348227695,
+        -0.13972650750543172
+      ],
+      "trial_trough": -1.0399999999999956,
+      "trial_gis": 0.3731207497800879,
+      "station": 141.65848321942812,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        471.917005790524,
+        -108.71238270078327
+      ],
+      "normal": [
+        0.9314094572010373,
+        -0.363973107573168
+      ],
+      "trial_trough": -0.399999999999995,
+      "trial_gis": 1.2175194549681931,
+      "station": 143.9581339210422,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        471.5051262844872,
+        -109.980061242154
+      ],
+      "normal": [
+        0.9685025935330257,
+        -0.24900346648149885
+      ],
+      "trial_trough": -0.31999999999999496,
+      "trial_gis": 1.0027934288919833,
+      "station": 144.41806406136502,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        471.49809867623884,
+        -111.50742212879875
+      ],
+      "normal": [
+        0.9687199304251425,
+        -0.24815659652144437
+      ],
+      "trial_trough": -0.5599999999999952,
+      "trial_gis": 0.7144527557410462,
+      "station": 146.2577846226563,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        471.00496307708676,
+        -112.4728631625974
+      ],
+      "normal": [
+        0.9836836846053898,
+        -0.1799066664722683
+      ],
+      "trial_trough": -0.399999999999995,
+      "trial_gis": 0.9175831140055675,
+      "station": 147.17764490330194,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        469.11097988881295,
+        -115.80404723031909
+      ],
+      "normal": [
+        0.8701364705372397,
+        -0.49281083859935076
+      ],
+      "trial_trough": 0.4000000000000057,
+      "trial_gis": 1.3802861700580806,
+      "station": 151.7769463065301,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        467.59111160970167,
+        -118.37067041241956
+      ],
+      "normal": [
+        0.817503156748908,
+        -0.5759241171418076
+      ],
+      "trial_trough": 0.24000000000000554,
+      "trial_gis": 1.45433502915878,
+      "station": 154.76649221862843,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        466.0304673360773,
+        -120.44332793968509
+      ],
+      "normal": [
+        0.8807848346807201,
+        -0.473516710366653
+      ],
+      "trial_trough": 0.5600000000000058,
+      "trial_gis": 1.4980635259496335,
+      "station": 157.52607306056535,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        465.4583748279213,
+        -121.60277535762602
+      ],
+      "normal": [
+        0.92686642824653,
+        -0.37539129477056343
+      ],
+      "trial_trough": 0.720000000000006,
+      "trial_gis": 1.6596676770574366,
+      "station": 158.6758984113724,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        463.4000236661102,
+        -122.10694773187964
+      ],
+      "normal": [
+        0.7305151692746862,
+        -0.6828964690636323
+      ],
+      "trial_trough": 1.5200000000000067,
+      "trial_gis": 2.7669791187802684,
+      "station": 161.4354792533093,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        462.56073123239935,
+        -123.94722414212042
+      ],
+      "normal": [
+        0.6559386944058467,
+        -0.7548141686409663
+      ],
+      "trial_trough": 5.329070518200751e-15,
+      "trial_gis": 1.9745141959117711,
+      "station": 163.505164884762,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        461.39798763658234,
+        -125.70163581755315
+      ],
+      "normal": [
+        0.8923028575476428,
+        -0.45143727184661103
+      ],
+      "trial_trough": 0.16000000000000547,
+      "trial_gis": 1.70297503933821,
+      "station": 165.11492037589184,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        461.3661803517547,
+        -127.8573117090783
+      ],
+      "normal": [
+        0.9364775094064196,
+        -0.35072763560339737
+      ],
+      "trial_trough": -0.07999999999999474,
+      "trial_gis": 1.2276442775857466,
+      "station": 167.18460600734454,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        462.03253340551345,
+        -128.89160592418102
+      ],
+      "normal": [
+        0.957789353192348,
+        -0.28747096359699265
+      ],
+      "trial_trough": -0.9599999999999955,
+      "trial_gis": 0.44175518858806795,
+      "station": 167.87450121782877,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        462.0213231100418,
+        -129.91688943284674
+      ],
+      "normal": [
+        0.9686282218951161,
+        -0.24851432101250368
+      ],
+      "trial_trough": -0.7999999999999954,
+      "trial_gis": 0.1299237594866801,
+      "station": 169.02432656863581,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        462.5171166964216,
+        -131.55210415878844
+      ],
+      "normal": [
+        0.9500492750940288,
+        0.312099943757301
+      ],
+      "trial_trough": -0.399999999999995,
+      "trial_gis": -0.2385657781299995,
+      "station": 170.8640471299271,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        463.5176873663314,
+        -132.0363922907363
+      ],
+      "normal": [
+        0.8994002162839269,
+        0.437126127048505
+      ],
+      "trial_trough": -0.7999999999999954,
+      "trial_gis": -0.8984699040009702,
+      "station": 171.78390741057274,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        462.9367669548008,
+        -135.6459534828598
+      ],
+      "normal": [
+        0.9175865037910802,
+        -0.39753617201515407
+      ],
+      "trial_trough": -0.4799999999999951,
+      "trial_gis": 0.7880231828603328,
+      "station": 176.6131738839623,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        462.5687813631921,
+        -136.3058246861649
+      ],
+      "normal": [
+        0.9426105121100457,
+        -0.33389432828312204
+      ],
+      "trial_trough": -0.399999999999995,
+      "trial_gis": 0.9245590557216512,
+      "station": 177.53303416460795,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        461.434271387441,
+        -137.59190827102688
+      ],
+      "normal": [
+        0.8133991054938562,
+        -0.581706021270018
+      ],
+      "trial_trough": -0.1599999999999948,
+      "trial_gis": 0.9638152729977087,
+      "station": 179.60271979606063,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        460.6023675012089,
+        -138.32160239005046
+      ],
+      "normal": [
+        0.8673495234749072,
+        -0.4976995118822716
+      ],
+      "trial_trough": 5.329070518200751e-15,
+      "trial_gis": 1.3135436478512938,
+      "station": 180.9825102170291,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        460.48451752059873,
+        -139.52078903723338
+      ],
+      "normal": [
+        0.8020194275286215,
+        -0.5972979473149579
+      ],
+      "trial_trough": -0.4799999999999951,
+      "trial_gis": 0.5766771326881306,
+      "station": 182.13233556783615,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        459.4290833774532,
+        -140.1207935181222
+      ],
+      "normal": [
+        0.8623656661421559,
+        -0.5062859447576986
+      ],
+      "trial_trough": 0.24000000000000554,
+      "trial_gis": 1.0239381991392011,
+      "station": 183.05219584848177,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        458.2316807226418,
+        -141.6434968627455
+      ],
+      "normal": [
+        0.4715941131612163,
+        -0.8818157360989233
+      ],
+      "trial_trough": 0.3200000000000056,
+      "trial_gis": 0.9518509432958915,
+      "station": 185.8117766904187,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        457.28919435312486,
+        -142.04939074086414
+      ],
+      "normal": [
+        0.228117626670902,
+        -0.9736335801532499
+      ],
+      "trial_trough": -0.07999999999999474,
+      "trial_gis": 0.8824846057157341,
+      "station": 187.42153218154854,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        456.1081849812195,
+        -142.47028843690276
+      ],
+      "normal": [
+        0.26483074444681853,
+        -0.9642949117338242
+      ],
+      "trial_trough": 5.329070518200751e-15,
+      "trial_gis": 0.74130994048578,
+      "station": 188.5713575323556,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        454.51164748179883,
+        -142.9943167636904
+      ],
+      "normal": [
+        0.43851948320203243,
+        -0.8987216826427536
+      ],
+      "trial_trough": 0.24000000000000554,
+      "trial_gis": 0.7870392744668782,
+      "station": 190.18111302348547,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        453.35954512070174,
+        -144.15069938634923
+      ],
+      "normal": [
+        0.7315342309512929,
+        -0.6818047146701909
+      ],
+      "trial_trough": 0.0800000000000054,
+      "trial_gis": 0.6464900894405836,
+      "station": 191.5609034444539,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        452.8615678812897,
+        -145.63985831573976
+      ],
+      "normal": [
+        0.7107212649621543,
+        -0.703473726254645
+      ],
+      "trial_trough": -0.31999999999999496,
+      "trial_gis": 0.061332967943364465,
+      "station": 193.4006240057452,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        451.9677759406264,
+        -146.5362385899832
+      ],
+      "normal": [
+        0.7472866425233684,
+        -0.6645018238546464
+      ],
+      "trial_trough": -0.07999999999999474,
+      "trial_gis": -0.06820930801373101,
+      "station": 194.55044935655224,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        451.50812248732075,
+        -147.4863052978431
+      ],
+      "normal": [
+        0.8600956735215917,
+        -0.5101327595728777
+      ],
+      "trial_trough": -0.31999999999999496,
+      "trial_gis": -0.001190520823956813,
+      "station": 195.70027470735928,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        451.0296129516201,
+        -148.4756922544104
+      ],
+      "normal": [
+        0.6344716437992028,
+        -0.7729461386246375
+      ],
+      "trial_trough": 1.5200000000000067,
+      "trial_gis": -0.3857059871977877,
+      "station": 196.85010005816633,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        449.4808208603981,
+        -149.00812242892712
+      ],
+      "normal": [
+        0.3899729778792527,
+        -0.9208263009514813
+      ],
+      "trial_trough": 1.2800000000000065,
+      "trial_gis": -0.2870808239385084,
+      "station": 198.4598555492962,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        448.5846755098048,
+        -149.93534529903874
+      ],
+      "normal": [
+        0.6068744866264838,
+        -0.7947976833646672
+      ],
+      "trial_trough": -0.8799999999999955,
+      "trial_gis": -0.5769596661495039,
+      "station": 199.83964597026466,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        447.53974718449376,
+        -150.96715576463575
+      ],
+      "normal": [
+        0.6369921599495522,
+        -0.7708702797246787
+      ],
+      "trial_trough": 2.4800000000000075,
+      "trial_gis": -0.6908164584047258,
+      "station": 201.44940146139453,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        446.62596621180637,
+        -152.33035105585734
+      ],
+      "normal": [
+        0.8028768517522025,
+        -0.5961449160401118
+      ],
+      "trial_trough": 1.5200000000000067,
+      "trial_gis": -0.9926371072427334,
+      "station": 203.5190870928472,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        445.57527987817116,
+        -154.34246026642737
+      ],
+      "normal": [
+        0.9022795436261695,
+        -0.43115151067084456
+      ],
+      "trial_trough": -0.9599999999999955,
+      "trial_gis": -0.8848789770772074,
+      "station": 206.0487028646227,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        444.5268432340772,
+        -154.91361787810678
+      ],
+      "normal": [
+        0.9549545741085572,
+        -0.29675202002538115
+      ],
+      "trial_trough": 0.16000000000000547,
+      "trial_gis": -0.0035561804805532005,
+      "station": 206.96856314526835,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        444.4903298862223,
+        -157.32362288884937
+      ],
+      "normal": [
+        0.9985004153899987,
+        0.05474413636180554
+      ],
+      "trial_trough": 0.48000000000000576,
+      "trial_gis": 0.2853859885902492,
+      "station": 209.49817891704384,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        444.40796265923916,
+        -160.39497182637177
+      ],
+      "normal": [
+        0.7520878677051981,
+        0.6590628492417461
+      ],
+      "trial_trough": 2.000000000000007,
+      "trial_gis": 1.0392944279488288,
+      "station": 212.48772482914217,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        447.53984385688017,
+        -162.5333282468263
+      ],
+      "normal": [
+        0.6416038370096132,
+        0.7670361897163273
+      ],
+      "trial_trough": 1.1200000000000063,
+      "trial_gis": 0.24535942207472994,
+      "station": 216.3971310218861,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        448.90719764984334,
+        -163.3875856889839
+      ],
+      "normal": [
+        0.771169356756049,
+        0.636630052071422
+      ],
+      "trial_trough": 0.800000000000006,
+      "trial_gis": 0.21702175689027078,
+      "station": 218.23685158317738,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        449.47236112283133,
+        -165.44821646969595
+      ],
+      "normal": [
+        0.882204384677155,
+        0.4708666729090118
+      ],
+      "trial_trough": 1.1200000000000063,
+      "trial_gis": 0.5104429149530196,
+      "station": 220.30653721463008,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        450.480119861455,
+        -167.47353582964007
+      ],
+      "normal": [
+        0.7995355479669991,
+        0.6006187705500973
+      ],
+      "trial_trough": 1.2000000000000064,
+      "trial_gis": 0.44651225504150627,
+      "station": 222.83615298640558,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        451.47109932021965,
+        -167.9698947050504
+      ],
+      "normal": [
+        0.7213921498417005,
+        0.6925267981434144
+      ],
+      "trial_trough": 0.8800000000000061,
+      "trial_gis": 0.007843811342025206,
+      "station": 223.75601326705123,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        452.4480764009577,
+        -168.41995215566388
+      ],
+      "normal": [
+        0.8389580667577512,
+        0.5441960696496223
+      ],
+      "trial_trough": 0.3200000000000056,
+      "trial_gis": -0.33916040249786306,
+      "station": 224.90583861785825,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        452.94962071988834,
+        -170.364798602836
+      ],
+      "normal": [
+        0.9370591393603168,
+        0.3491706879755262
+      ],
+      "trial_trough": 0.720000000000006,
+      "trial_gis": 0.052101176961757534,
+      "station": 226.97552424931095,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2397,
+      "xy": [
+        453.4751794478196,
+        -171.4529883682134
+      ],
+      "normal": [
+        0.8843159646836753,
+        0.4668889317659829
+      ],
+      "trial_trough": 0.4000000000000057,
+      "trial_gis": -0.10620854924477073,
+      "station": 228.125349600118,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        405.4427627954328,
+        -163.66231120308987
+      ],
+      "normal": [
+        0.3441889347263842,
+        0.9389004085694695
+      ],
+      "trial_trough": -1.519999999999996,
+      "trial_gis": -2.260708939864398,
+      "station": 12.186040108829934,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        406.691585117813,
+        -163.53711288451797
+      ],
+      "normal": [
+        0.1901794386306894,
+        0.9817493474009116
+      ],
+      "trial_trough": -1.9999999999999964,
+      "trial_gis": -2.8531536309008985,
+      "station": 13.795517104335774,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        408.2990059440382,
+        -163.54774679202004
+      ],
+      "normal": [
+        -0.23112147612487455,
+        0.972924901148007
+      ],
+      "trial_trough": -1.9999999999999964,
+      "trial_gis": -2.661416089553424,
+      "station": 16.78454581027519,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        409.7508695812551,
+        -163.5640840711841
+      ],
+      "normal": [
+        -0.24912112467418482,
+        0.9684723358160879
+      ],
+      "trial_trough": -1.6799999999999962,
+      "trial_gis": -2.1618409837136627,
+      "station": 18.39402280578103,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        411.53266283690084,
+        -163.4782646120888
+      ],
+      "normal": [
+        -0.553997051473709,
+        0.8325186285954427
+      ],
+      "trial_trough": -1.1199999999999957,
+      "trial_gis": -1.4661528048941521,
+      "station": 20.923200941575924,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        414.53545502541414,
+        -161.46515724182498
+      ],
+      "normal": [
+        -0.700921562645741,
+        0.7132383633949121
+      ],
+      "trial_trough": -0.9599999999999955,
+      "trial_gis": -1.0837979229435404,
+      "station": 25.521706643021183,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        415.9412451094703,
+        -160.52485219418472
+      ],
+      "normal": [
+        -0.3895649483959214,
+        0.9209989961890747
+      ],
+      "trial_trough": -0.6399999999999952,
+      "trial_gis": -1.3300750216187414,
+      "station": 26.901258353454757,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        416.7843074516733,
+        -159.37842977769157
+      ],
+      "normal": [
+        -0.3931655411349162,
+        0.9194677032196882
+      ],
+      "trial_trough": -1.3599999999999959,
+      "trial_gis": -1.96987006209999,
+      "station": 28.050884778816073,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        418.47582268994944,
+        -159.50842973485666
+      ],
+      "normal": [
+        -0.3292255494818058,
+        0.9442513105992508
+      ],
+      "trial_trough": -0.5599999999999952,
+      "trial_gis": -1.0456711119124418,
+      "station": 29.660361774321913,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        421.3858779859462,
+        -160.9268787249381
+      ],
+      "normal": [
+        0.5394890295512796,
+        0.8419926288239218
+      ],
+      "trial_trough": 0.16000000000000547,
+      "trial_gis": -0.637561197866411,
+      "station": 32.18953991011681,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        422.6463704019215,
+        -161.4943615555204
+      ],
+      "normal": [
+        -0.03849320313553683,
+        0.9992588620134255
+      ],
+      "trial_trough": 0.5600000000000058,
+      "trial_gis": -0.18724713349508462,
+      "station": 34.25886747576717,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        423.43432330530777,
+        -161.47991926949294
+      ],
+      "normal": [
+        0.29238967976816377,
+        0.9562992602554237
+      ],
+      "trial_trough": 0.48000000000000576,
+      "trial_gis": -0.3419062499195151,
+      "station": 34.7187180459117,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        424.47274983530355,
+        -161.48890730437452
+      ],
+      "normal": [
+        0.37702800743065773,
+        0.9262018579191407
+      ],
+      "trial_trough": -0.07999999999999474,
+      "trial_gis": -0.9936611285707557,
+      "station": 35.86834447127301,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        426.0539983995047,
+        -161.51323534109335
+      ],
+      "normal": [
+        0.23805951094343047,
+        0.9712505697549807
+      ],
+      "trial_trough": -0.4799999999999951,
+      "trial_gis": -1.3405750212026917,
+      "station": 37.47782146677885,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        427.469576475972,
+        -161.50270843926447
+      ],
+      "normal": [
+        -0.0886738155844476,
+        0.996060718244473
+      ],
+      "trial_trough": -0.9599999999999955,
+      "trial_gis": -1.5445385072954987,
+      "station": 39.77707431750148,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        428.87471501360136,
+        -161.33030567018275
+      ],
+      "normal": [
+        -0.412531881519833,
+        0.9109431632817201
+      ],
+      "trial_trough": -0.7999999999999954,
+      "trial_gis": -1.3475124832472556,
+      "station": 42.07632716822411,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        430.504163024319,
+        -161.4997001617819
+      ],
+      "normal": [
+        -0.07183804516836194,
+        0.9974163099059431
+      ],
+      "trial_trough": 0.0800000000000054,
+      "trial_gis": -0.7607833590405534,
+      "station": 42.7661030234409,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        431.95317470564146,
+        -161.5049481960187
+      ],
+      "normal": [
+        -0.10508844268370417,
+        0.9944628797568634
+      ],
+      "trial_trough": 0.0800000000000054,
+      "trial_gis": -0.6270420422509886,
+      "station": 44.37558001894674,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        434.4765155919917,
+        -161.53395844084585
+      ],
+      "normal": [
+        -0.8224786575471703,
+        0.5687959721019521
+      ],
+      "trial_trough": 0.6400000000000059,
+      "trial_gis": 0.012427217105642319,
+      "station": 47.36460872488615,
+      "evidence": "nearby connected water rooms"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        434.4501557631752,
+        -160.05705598154535
+      ],
+      "normal": [
+        -0.7530981028680452,
+        0.6579082363495317
+      ],
+      "trial_trough": -0.4799999999999951,
+      "trial_gis": -0.666479128137686,
+      "station": 48.744160435319735,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        436.05146641800224,
+        -159.47416173035742
+      ],
+      "normal": [
+        -0.4486724730264394,
+        0.8936962638102159
+      ],
+      "trial_trough": -2.399999999999997,
+      "trial_gis": -0.16914010863479662,
+      "station": 50.12371214575331,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        437.5512629450417,
+        -159.45036677116397
+      ],
+      "normal": [
+        -0.6955945691830256,
+        0.7184345449121172
+      ],
+      "trial_trough": -1.439999999999996,
+      "trial_gis": 0.5556695399208972,
+      "station": 51.27333857111463,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        437.52175732532015,
+        -157.9580451594333
+      ],
+      "normal": [
+        -0.8877289053106722,
+        0.46036658292703636
+      ],
+      "trial_trough": -1.1199999999999957,
+      "trial_gis": -0.12517606916841195,
+      "station": 52.42296499647594,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        438.8923774918119,
+        -157.5431718789525
+      ],
+      "normal": [
+        -0.3723039884468425,
+        0.9281108447737121
+      ],
+      "trial_trough": -1.1999999999999957,
+      "trial_gis": 0.41582446319012173,
+      "station": 54.032441991981784,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        440.5379442452251,
+        -157.50573913233026
+      ],
+      "normal": [
+        0.14955075022192849,
+        0.9887540508680904
+      ],
+      "trial_trough": -0.7199999999999953,
+      "trial_gis": 0.719161344913733,
+      "station": 56.33169484270441,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        441.4913557045747,
+        -157.4974621930869
+      ],
+      "normal": [
+        0.2816929855654708,
+        0.9595045919031402
+      ],
+      "trial_trough": -0.07999999999999474,
+      "trial_gis": 0.3346447079372802,
+      "station": 57.251395982993465,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        442.5535930296977,
+        -158.52621054278396
+      ],
+      "normal": [
+        0.43933872947140895,
+        0.8983214796421423
+      ],
+      "trial_trough": -0.399999999999995,
+      "trial_gis": 0.9377387074686957,
+      "station": 58.8608729784993,
+      "evidence": "previous cross-section survey"
+    },
+    {
+      "source_id": 2058,
+      "xy": [
+        443.4041542541754,
+        -158.44934649592702
+      ],
+      "normal": [
+        0.46725095124183186,
+        0.8841247358623122
+      ],
+      "trial_trough": 1.760000000000007,
+      "trial_gis": 0.3692259770776154,
+      "station": 59.55064883371609,
+      "evidence": "previous cross-section survey"
+    }
+  ],
+  "deformation": {
+    "minimum_combined_inverse_determinant": 0.2978161573410034,
+    "minimum_river_inverse_determinant": 0.30739063024520874,
+    "local_damping_iterations": 1
+  }
+}

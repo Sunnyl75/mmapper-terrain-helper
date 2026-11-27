@@ -1,0 +1,20 @@
+{
+  "bundled": {
+    "filename": "arda-MMapper-26.06.0.xml",
+    "url": "https://raw.githubusercontent.com/MUME/arda/14d6bec24045394d72890f9bcc8c1098170e1941/arda.xml",
+    "source": "https://github.com/MUME/arda/blob/14d6bec24045394d72890f9bcc8c1098170e1941/arda.xml",
+    "sha256": "df9bcd380c17cd0494a7974ee035af108f155c8efcdcaead6813d2e38f76a234"
+  },
+  "faine": {
+    "filename": "faine-map.mm2",
+    "url": "https://raw.githubusercontent.com/nazgum/mume/b7ae4920fe43c7c883bf52c4e0b5d2eaa7e3c4d5/maps/faine-map.mm2",
+    "source": "https://github.com/nazgum/mume/blob/b7ae4920fe43c7c883bf52c4e0b5d2eaa7e3c4d5/maps/faine-map.mm2",
+    "sha256": "7f9e5da4743675ebac70bc2cd9ca9b8f09285517c53831cba849959019f8fb83"
+  },
+  "nazgum": {
+    "filename": "nazgum-latest.mm2",
+    "url": "https://raw.githubusercontent.com/nazgum/mume/b7ae4920fe43c7c883bf52c4e0b5d2eaa7e3c4d5/maps/nazgum-latest.mm2",
+    "source": "https://github.com/nazgum/mume/blob/b7ae4920fe43c7c883bf52c4e0b5d2eaa7e3c4d5/maps/nazgum-latest.mm2",
+    "sha256": "0768b31a19b49e89bc4f8e1955bc98efee55393d9c96f0a86cca75402644d160"
+  }
+}

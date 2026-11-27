@@ -1,0 +1,7 @@
+/maps/
+/local-sources/
+/build/
+/dist/
+__pycache__/
+*.py[cod]
+.DS_Store

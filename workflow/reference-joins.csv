@@ -1,0 +1,20 @@
+join,source_x,source_y,matched_x,matched_y,bundled_room_x,bundled_room_y,bundled_room_name,evidence
+Brandywine Bridge,181.113,-80.245,186.5,-77.5,186,-78,Brandywine Bridge,bundled MUME join
+The Water joins the Brandywine,181.141,-79.727,185.5,-75.5,185,-76,River Brandywine,bundled MUME join
+Last Bridge,315.457,-77.869,317.5,-76.5,317,-77,The Last Bridge,bundled MUME join
+Ford of Bruinen,376.918,-79.947,376.5,-79.5,376,-80,A Ford in the River Bruinen,bundled MUME join
+East Road–Greenway crossroads,205.446,-79.636,209.5,-77.5,209,-78,Old East Road Meets Greenway,bundled MUME join
+Mitheithel–Greyflood near Tharbad,244.416,-169.873,249.5,-170.5,249,-171,At a Meeting of Two Waterways,bundled MUME join
+Sirannon–Glanduin,306.411,-176.931,306.5,-178.5,306,-179,Confluence of the Sirannon and Glanduin,bundled MUME join
+Old Ford on the Anduin,487.825,-64.596,485.5,-70.5,485,-71,Old Ford,bundled MUME join
+Gladden–Anduin,479.846,-88.812,476.5,-84.5,476,-85,The Meeting of the Rivers,bundled MUME join
+Silverlode–Anduin,446.838,-164.489,444.5,-158.5,444,-159,Meeting of the Anduin and Silverlode,bundled MUME join
+Mitheithel–Bruinen,299.12,-126.302,299.125,-126.304,,,,GIS join; exact MUME junction unverified
+Baranduin–River Withywindle,176.793,-97.381,180.139,-96.442,,,,GIS join; exact MUME junction unverified
+Baranduin–The Stockbrook,178.076,-85.746,182.801,-83.45,,,,GIS join; exact MUME junction unverified
+Baranduin–River Shirebourn,174.626,-95.008,178.232,-93.571,,,,GIS join; exact MUME junction unverified
+Anduin–Limlight,466.837,-198.849,466.752,-198.561,,,,GIS join; exact MUME junction unverified
+Isen–Adorn,251.711,-263.236,251.676,-263.236,,,,GIS join; exact MUME junction unverified
+Lune–Little Lune,82.323,33.384,82.323,33.359,,,,GIS join; exact MUME junction unverified
+Forest River–Enchanted River,595.281,-8.795,595.246,-8.781,,,,GIS join; exact MUME junction unverified
+Greenway–Old South Road,242.721,-170.501,245.483,-171.726,,,,GIS join; exact MUME junction unverified
