@@ -86,7 +86,8 @@ def parse_manual(url):
     parsed = urlsplit(url)
     if parsed.scheme != "https" or parsed.netloc != "raw.githubusercontent.com" or parsed.query or parsed.fragment:
         raise ValueError("Supply the public Raw GitHub URL for the map")
-    match = re.fullmatch(r"/([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)/([^/]+)/(.+)", parsed.path)
+    raw_path = re.sub(r"^(/[^/]+/[^/]+)/refs/(?:heads|tags)/", r"\1/", parsed.path)
+    match = re.fullmatch(r"/([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)/([^/]+)/(.+)", raw_path)
     if not match:
         raise ValueError("The Raw URL must identify a repository, commit or branch, and file path")
     repo, ref, path = match.groups()
