@@ -20,6 +20,10 @@ These are upstream pages that can show renamed or updated files. For an existing
 
 Fetch the exact playable maps from their original hosts with `python3 tools/fetch_foregrounds.py`. Add `--verify-only` to check local copies offline. The pinned commits and SHA-256 digests are in [foreground-sources.json](foreground-sources.json). Use the corresponding fit for each map snapshot. Faine’s archived copy has no server IDs, so Fog of War room reveal requires a Faine foreground with server IDs.
 
+## Scheduled updates and other playable maps
+
+See [AUTOMATION.md](AUTOMATION.md) for weekly upstream checks, draft releases, and running a supplied map through the closest starting profile.
+
 ## Rebuild a profile
 
 Follow [BUILD.md](BUILD.md) to install the Python dependencies, supply the local Arda inputs and generate the background, aligned DEM, GIS and hillshade. Maps remain flat on screen. The background keeps public outdoor terrain and main roads. Supply a reviewed exclusion list if an outdoor area needs to remain concealed for Fog of War.
