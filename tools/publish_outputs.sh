@@ -23,12 +23,22 @@ for profile in bundled faine nazgum; do
     background="$out/$profile-background.zip"
     elevation="$out/$profile-elevation.tif"
 
-    zip -q -j "$background" \
-        "$src/$profile-background-river-reaches.mm2" \
-        "$src/$profile.hillshade.png" \
-        "$src/$profile.hillshade.pgw" \
-        "$src/build-report.json" ACKNOWLEDGEMENTS.md
+    profile_files=(
+        "$src/$profile-background-river-reaches.mm2"
+        "$src/$profile.hillshade.png"
+        "$src/$profile.hillshade.pgw"
+        "$src/build-report.json"
+        ACKNOWLEDGEMENTS.md
+    )
+    for file in "${profile_files[@]}"; do
+        if [[ ! -s "$file" ]]; then
+            printf 'Missing release input: %s\n' "$file" >&2
+            exit 1
+        fi
+    done
+    zip -q -j "$background" "${profile_files[@]}"
     unzip -p "$elevation_zip" "$profile/elevation.tif" > "$elevation"
+    [[ -s "$elevation" ]]
     assets+=("$background" "$elevation")
 done
 
