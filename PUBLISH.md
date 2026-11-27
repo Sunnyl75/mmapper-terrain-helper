@@ -16,16 +16,16 @@ gh repo create Sunnyl75/mmapper-terrain-helper --public --source=. --remote=orig
 
 The command uses GitHub CLI. On macOS with Homebrew, install it with `brew install gh` when needed.
 
-## Add a map release if redistribution is authorised
+## Publish the finished backgrounds and DEMs
 
-The offline `maps/` directory has the exact foreground files and matching background MM2s, hillshades, world files, reports and previews. The MUME bundled-map repository grants no broader permission over its game data, and the older ME-GIS vectors have uncertain licence terms. See [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md). The source manifest lets users fetch the exact foreground maps directly from their existing upstream hosts.
-
-With any necessary permissions in place, attach the map ZIP to the repository’s first release. Keep the acknowledgements with it.
+Use the extracted starter bundle. It has the exact generated backgrounds and hillshades under `maps/profiles/`. Place `MMapper-River-Reach-Elevation-and-Vectors.zip` in Downloads. The helper extracts the aligned elevation GeoTIFF from that archive for each profile.
 
 ```sh
-python3 tools/fetch_foregrounds.py --verify-only &&
-mkdir -p dist &&
-zip -qr dist/MMapper-Terrain-Maps-v0.1.0.zip maps README.md ACKNOWLEDGEMENTS.md BUILD.md foreground-sources.json -x '*/.DS_Store' &&
-gh release create v0.1.0 dist/MMapper-Terrain-Maps-v0.1.0.zip \
-  --title "MMapper Terrain Helper v0.1.0" --generate-notes
+cd "$HOME/Downloads/MMapper-Terrain-Helper" &&
+git pull --ff-only &&
+bash tools/publish_outputs.sh "$HOME/Downloads/MMapper-River-Reach-Elevation-and-Vectors.zip"
 ```
+
+The script creates a GitHub Release with three background ZIPs and three elevation GeoTIFFs. Each background ZIP contains the terrain-only MM2, matching hillshade and PGW, build report, and acknowledgements. The release notes point to the upstream foreground pages. The [source manifest](foreground-sources.json) records the exact playable snapshots matched to the release. See [acknowledgements and data terms](ACKNOWLEDGEMENTS.md).
+
+The default release tag is `v0.1.0`. For a future release, update the output files and pass the new tag as the second argument.
