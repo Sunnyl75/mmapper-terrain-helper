@@ -45,18 +45,23 @@ jobs:
         name: Smoke-test the three reference profiles
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y --no-install-recommends python3-numpy python3-scipy python3-gdal
+          sudo apt-get install -y --no-install-recommends python3-numpy python3-scipy python3-gdal python3-pil
           /usr/bin/python3 tools/fetch_foregrounds.py
           /usr/bin/python3 - <<'PY'
-          import json, pathlib, subprocess
+          import json, pathlib, subprocess, tempfile
           sources=json.loads(pathlib.Path("foreground-sources.json").read_text())
-          for style, source in sources.items():
-              path=pathlib.Path("maps/foreground") / source["filename"]
-              result=subprocess.check_output(
-                  ["/usr/bin/python3","tools/terrain_updates.py","fit",
-                   "--target",str(path),"--output","unused","--choose-only"], text=True)
-              if json.loads(result)["style"] != style:
-                  raise SystemExit(f"Incorrect preset for {path.name}")
+          with tempfile.TemporaryDirectory() as tmp:
+              for style, source in sources.items():
+                  original=pathlib.Path("maps/foreground") / source["filename"]
+                  changed=pathlib.Path(tmp) / original.name
+                  changed.write_bytes(original.read_bytes()+b"\n")
+                  for path in (original, changed):
+                      result=subprocess.check_output(
+                          ["/usr/bin/python3","tools/terrain_updates.py","fit",
+                           "--target",str(path),"--output","unused","--choose-only"], text=True)
+                      if json.loads(result)["style"] != style:
+                          raise SystemExit(f"Incorrect preset for {path.name}: {result}")
+                      print(f"Recognized {style} from {path}")
           PY
       - id: scan
         name: Compare exact foreground files with published inputs
@@ -202,8 +207,13 @@ jobs:
               "Check the fit in MMapper before publishing. "
               "[Source credits and data terms](https://github.com/Sunnyl75/mmapper-terrain-helper/blob/main/ACKNOWLEDGEMENTS.md).\n")
           PY
-          gh release create "$RELEASE_TAG" "dist/$MAP_LABEL-background.zip" "dist/$MAP_LABEL-elevation.tif" \
-            --draft --target "$GITHUB_SHA" --title "MMapper terrain update ($MAP_LABEL)" --notes-file dist/release-notes.md
+          if draft=$(gh release view "$RELEASE_TAG" --json isDraft --jq .isDraft); then
+            test "$draft" = true
+          else
+            gh release create "$RELEASE_TAG" --draft --target "$GITHUB_SHA" \
+              --title "MMapper terrain update ($MAP_LABEL)" --notes-file dist/release-notes.md
+          fi
+          gh release upload "$RELEASE_TAG" "dist/$MAP_LABEL-background.zip" "dist/$MAP_LABEL-elevation.tif" --clobber
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -212,7 +222,6 @@ jobs:
           path: |
             build/style.json
             build/profile-fit/profile-report.json
-            build/profile-fit/matched-controls.csv
             build/maps/build-report.json
             build/maps/review.html
             build/maps/overview.png
