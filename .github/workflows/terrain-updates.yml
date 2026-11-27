@@ -73,11 +73,17 @@ jobs:
           if [[ -n "$MAP_URL" ]]; then options+=(--map-url "$MAP_URL"); fi
           python3 tools/terrain_updates.py check --output build/updates.json "${options[@]}"
           python3 - <<'PY' >> "$GITHUB_OUTPUT"
-          import json
+          import json, os
           with open("build/updates.json") as f:
               plan=json.load(f)
-          print("matrix="+json.dumps({"include":plan["include"]},separators=(",",":")))
-          print("changed="+str(bool(plan["include"])).lower())
+          candidates=plan["include"]
+          if os.environ["GITHUB_EVENT_NAME"] == "push":
+              entry=json.load(open("foreground-sources.json"))["faine"]
+              candidates=[{"label":"integration-test", "tag":"terrain-integration-test",
+                           "url":entry["url"], "sha256":entry["sha256"], "extension":".mm2",
+                           "source":entry["source"]}]
+          print("matrix="+json.dumps({"include":candidates},separators=(",",":")))
+          print("changed="+str(bool(candidates)).lower())
           PY
           python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
           import json
@@ -94,7 +100,7 @@ jobs:
 
   terrain:
     needs: check
-    if: needs.check.outputs.changed == 'true' && github.event_name != 'push' && !inputs.check_only
+    if: needs.check.outputs.changed == 'true' && !inputs.check_only
     runs-on: ubuntu-24.04
     timeout-minutes: 35
     permissions:
@@ -125,6 +131,10 @@ jobs:
           /usr/bin/python3 tools/fetch_foregrounds.py
           /usr/bin/python3 tools/terrain_updates.py fetch --url "$CANDIDATE_URL" \
             --sha256 "$CANDIDATE_SHA256" --output "build/candidate$MAP_EXTENSION"
+          if [[ "$GITHUB_EVENT_NAME" == push ]]; then
+            # Trailing bytes change the hash without changing the MM2 room data.
+            printf '\n' >> "build/candidate$MAP_EXTENSION"
+          fi
           /usr/bin/python3 tools/terrain_updates.py fit --target "build/candidate$MAP_EXTENSION" \
             --style "$PROFILE_REQUEST" --output build/profile-fit --selection-out build/style.json
           echo "style=$(/usr/bin/python3 -c 'import json; print(json.load(open("build/style.json"))["style"])')" >> "$GITHUB_OUTPUT"
@@ -184,6 +194,7 @@ jobs:
               raise SystemExit(f"95th-percentile fit offset is {error:.2f} rooms; review before release.")
           PY
       - name: Draft a release for the exact new snapshot
+        if: github.event_name != 'push'
         env:
           GH_TOKEN: ${{ github.token }}
           STYLE: ${{ steps.fit.outputs.style }}
